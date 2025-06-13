@@ -5,7 +5,7 @@
 }
 
 .language-switcher button {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     background-color: transparent;
     outline: none;
@@ -24,6 +24,7 @@
 .menu-item a {
     font-weight: 700 !important;
     color: var(--primary) !important;
+    font-size: 16px !important;
 }
 
 .navbar .active a {
@@ -47,6 +48,15 @@
     background-color: var(--bg);
 }
 
+.zmm-wrapper .menu-item a {
+    font-size: 26px !important;
+}
+
+.mobile-header-items .language-switcher button {
+    font-size: 22px !important;
+
+}
+
 .mobile-header {
     background-color: var(--bg) !important;
 }
@@ -59,6 +69,37 @@
 .close:before {
     background-color: var(--primary) !important;
     font-weight: 700 !important;
+}
+
+.section-title {
+    cursor: default;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-left: 30px solid var(--primary);
+    border-bottom: 30px solid transparent;
+}
+
+.button-to {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: fit-content;
+    margin-right: 2em;
+    overflow: visible;
+}
+
+.more-label {
+    height: 60px;
+    width: fit-content;
+    padding: 14px 0 0px 5px;
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--bg);
+    background-color: var(--primary);
 }
 
 @media (max-width: 1024px) {
@@ -93,6 +134,10 @@
 }
 
 .section-about .left-column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
 
@@ -100,8 +145,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    max-width: 100%;
+    width: 80%;
+    max-width: 80%;
     aspect-ratio: 1/1;
     border-radius: 100%;
     z-index: 10;
@@ -113,13 +158,13 @@
     position: absolute;
     right: 0;
     bottom: 10vh;
-    font-size: 50vh;
+    font-size: 25vh;
     cursor: default;
 }
 
 .round-image-container {
-    width: 100%;
-    max-width: 100%;
+    width: 80%;
+    max-width: 80%;
     aspect-ratio: 1/1;
     border-radius: 100%;
     overflow: hidden;
@@ -135,6 +180,7 @@
 
 .accordion-button {
     font-weight: 700;
+    font-size: 22px;
 }
 
 .accordion-button:hover {
@@ -157,3 +203,180 @@
         width: 100%
     }
 }
+
+/* Discography */
+.section-discography {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 100px;
+    color: var(--primary) !important;
+    background-color: var(--bg);
+}
+
+
+.section-discography .section-title {
+    color: var(--primary);
+    margin-bottom: 3em;
+}
+
+
+.section-discography h2 {
+    font-size: 7em !important;
+}
+
+.section-discography .album {
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: .4em 4em;
+}
+
+.section-discography .album-year {
+    margin-right: 1em;
+    font-weight: 100;
+    cursor: default;
+}
+
+.section-discography .album-title {
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--primary) !important;
+}
+
+.section-discography .album-title:hover {
+    text-decoration: underline;
+}
+
+.album-image-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 7.5vh;
+    padding-right: 6em;
+}
+
+.album-image-container {
+    aspect-ratio: 1/1;
+    height: 15vh;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.delta-container {
+    width: 0px;
+    height: 0px;
+    overflow: visible;
+    position: relative;
+}
+
+.delta {
+    position: absolute;
+    left: 0;
+    bottom: 0vh;
+    height: 0;
+    width: 0;
+    font-size: 25vh;
+    cursor: default;
+    z-index: 0;
+    color: var(--primary);
+}
+
+@media (max-width: 1024px) {
+    .section-discography .album {
+        padding-left: 2em;
+    }
+
+    .album-image-row {
+        justify-content: start;
+        margin-top: 4em;
+    }
+
+    .album-image-container {
+        height: auto;
+        width: 20vw;
+    }
+
+    .delta-container {
+        visibility: hidden;
+    }
+}
+
+/* Idiorhytmo */
+
+.section-idiorhythmo {
+    display: flex !important;
+    flex-direction: column;
+    height: fit-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0;
+    color: var(--primary) !important;
+    background-color: var(--bg);
+    overflow-y: visible
+}
+
+
+.section-idiorhythmo .section-title {
+    color: var(--primary);
+}
+
+
+.section-idiorhythmo h2 {
+    font-size: 7em !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 1.2em;
+    height: fit-content;
+}
+
+.section-idiorhythmo .section-text {
+    margin-bottom: 2em;
+}
+
+.section-idiorhythmo .section-text a {
+    color: var(--primary) !important;
+}
+
+.section-idiorhythmo .section-text a:hover {
+    text-decoration: underline;
+}
+
+.section-idiorhythmo .owl-nav {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-idiorhythmo .owl-next {
+    margin: 0 1em 0 auto;
+}
+
+.section-idiorhythmo .owl-prev {
+    margin: 0 auto 0 1em;
+}
+
+.section-idiorhythmo .owl-prev span::after,
+.section-idiorhythmo .owl-next span::after {
+    background-color: var(--primary);
+    opacity: 0.4;
+}
+
+.section-idiorhythmo .owl-prev span::before,
+.section-idiorhythmo .owl-next span::before {
+    color: var(--bg);
+}
+
+.section-idiorhythmo .owl-prev:hover span::after,
+.section-idiorhythmo .owl-next:hover span::after {
+    opacity: 1;
+}
+
+
+@media (max-width: 1024px) {}
