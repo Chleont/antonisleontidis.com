@@ -1,0 +1,159 @@
+/* General & landing page */
+
+.language-switcher {
+    margin-left: 5em;
+}
+
+.language-switcher button {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--primary)
+}
+
+.language-switcher button:hover {
+    color: var(--secondary);
+}
+
+.navbar {
+    background-color: var(--bg) !important;
+}
+
+.menu-item a {
+    font-weight: 700 !important;
+    color: var(--primary) !important;
+}
+
+.navbar .active a {
+    font-weight: 1000 !important;
+    color: var(--secondary) !important;
+}
+
+.menu-item a:hover {
+    color: var(--secondary) !important;
+}
+
+.header-sticky {
+    background-color: var(--bg) !important;
+}
+
+.ti-menu {
+    color: var(--primary) !important;
+}
+
+.zmm-wrapper {
+    background-color: var(--bg);
+}
+
+.mobile-header {
+    background-color: var(--bg) !important;
+}
+
+.close:after {
+    background-color: var(--primary) !important;
+    font-weight: 700 !important;
+}
+
+.close:before {
+    background-color: var(--primary) !important;
+    font-weight: 700 !important;
+}
+
+@media (max-width: 1024px) {
+    .navbar-main .language-switcher {
+        display: none;
+    }
+}
+
+
+/* About */
+
+.section-about {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    background-color: var(--bg);
+}
+
+.section-about .section-title {
+    color: var(--primary)
+}
+
+.section-about a {
+    color: var(--primary) !important
+}
+
+.section-about .accordion-body {
+    color: var(--primary) !important
+}
+
+.section-about .accordion-button {
+    color: var(--primary) !important;
+}
+
+.section-about .left-column {
+    position: relative;
+}
+
+.lamda-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    z-index: 10;
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.lamda {
+    position: absolute;
+    right: 0;
+    bottom: 10vh;
+    font-size: 50vh;
+    cursor: default;
+}
+
+.round-image-container {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.round-image-container img {
+    width: 100%
+}
+
+.section-about h2 {
+    font-size: 7em !important;
+}
+
+.accordion-button {
+    font-weight: 700;
+}
+
+.accordion-button:hover {
+    color: var(--secondary)
+}
+
+@media (max-width: 1024px) {
+
+    .lamda-container {
+        visibility: hidden;
+    }
+
+    .round-image-container {
+        margin-left: auto;
+        height: 33vw;
+        width: auto;
+    }
+
+    .round-image-container img {
+        width: 100%
+    }
+}
