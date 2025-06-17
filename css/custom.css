@@ -10,6 +10,11 @@
     /* font-family: 'EB Garamond', serif !important; */
 }
 
+h2 {
+    font-size: 7em !important;
+    font-weight: 700;
+}
+
 .decorative-font {
     /* font-family: 'EB Garamond', serif !important; */
     font-family: "STIX Two Text", serif !important;
@@ -47,6 +52,17 @@
     color: var(--secondary) !important;
 }
 
+.clickable-logo {
+    height: 60px !important;
+    cursor: pointer;
+    margin-left: 2em;
+    font-size: 18px !important;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .menu-item a:hover {
     color: var(--secondary) !important;
 }
@@ -69,7 +85,6 @@
 
 .mobile-header-items .language-switcher button {
     font-size: 22px !important;
-
 }
 
 .mobile-header {
@@ -117,8 +132,44 @@
 }
 
 @media (max-width: 1024px) {
+    h2 {
+        font-size: 15vw !important;
+    }
+
+    .mobile-header-items .language-switcher button {
+        font-weight: 400;
+        font-size: 18px !important;
+    }
+
     .navbar-main .language-switcher {
         display: none;
+    }
+
+    .landing-page-text {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: calc(100vw-70px) !important;
+    }
+
+    .landing-page-text {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: calc(100vw-70px) !important;
+        height: fit-content;
+        font-weight: 700 !important;
+    }
+
+    .landing-page-text span {
+        font-size: 10vw;
+        height: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .landing-page-text span:last-of-type {
+        word-break: break-all !important;
+        max-width: calc(100%-90px) !important;
     }
 }
 
@@ -158,8 +209,8 @@
 
 .lamda-container {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: auto;
+    left: 10%;
     width: 80%;
     max-width: 80%;
     aspect-ratio: 1/1;
@@ -187,10 +238,6 @@
 
 .round-image-container img {
     width: 100%
-}
-
-.section-about h2 {
-    font-size: 7em !important;
 }
 
 .accordion-button {
@@ -226,6 +273,10 @@
     .section-about .accordion {
         text-align: left;
     }
+
+    .section-about .accordion-body {
+        text-align: justify;
+    }
 }
 
 /* Discography */
@@ -244,10 +295,6 @@
 }
 
 
-.section-discography h2 {
-    font-size: 7em !important;
-    font-weight: 700;
-}
 
 .section-discography .album {
     font-size: xx-large;
@@ -267,7 +314,6 @@
 }
 
 .section-discography .album-title {
-    font-weight: 700;
     cursor: pointer;
     color: var(--primary) !important;
 }
@@ -313,8 +359,27 @@
 }
 
 @media (max-width: 1024px) {
+
+    .section-discography .section-title {
+        word-break: break-all;
+        text-align: left;
+        line-height: 1em;
+    }
+
     .section-discography .album {
-        padding-left: 2em;
+        width: 100%;
+        height: 2em;
+        align-items: start;
+        justify-content: start;
+        padding: .5em 0;
+    }
+
+    .section-discography .album-year {
+        width: fit-content;
+    }
+
+    .section-discography .album-title {
+        word-break: break-all;
     }
 
     .album-image-row {
@@ -352,8 +417,6 @@
 
 
 .section-idiorhythmo h2 {
-    font-weight: 700;
-    font-size: 7em !important;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -426,12 +489,18 @@
 
 
 @media (max-width: 1024px) {
+
+    .section-idiorhythmo .section-title {
+        word-break: break-all;
+    }
+
     .section-idiorhythmo .carousel-container {
         width: 100%;
     }
 
     .section-idiorhythmo .text-section {
-        width: 100%;
+        width: 100% !important;
+        text-align: justify !important;
     }
 
     .section-idiorhythmo .owl-carousel,
@@ -476,8 +545,6 @@
 
 
 .section-events h2 {
-    font-weight: 700;
-    font-size: 7em !important;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -543,17 +610,26 @@
 
 @media (max-width: 1024px) {
 
+
+    .section-events .section-title {
+        word-break: break-all;
+        text-align: left;
+    }
+
+    .section-events .text-section {
+        width: 100% !important;
+    }
+
+    .section-events .section-text {
+        text-align: justify !important;
+    }
+
     .section-events .section-title {
         text-align: left;
     }
 
     .section-events .carousel-container {
         width: 100%;
-    }
-
-    .section-events .text-section {
-        width: 100%;
-        text-align: left;
     }
 
     .section-events .owl-carousel,
