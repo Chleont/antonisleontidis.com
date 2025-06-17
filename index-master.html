@@ -35,6 +35,15 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <!-- Custom styles -->
     <link rel="stylesheet" href="css/custom.css">
+    <!-- Fonts for titles -->
+    <!-- Garamod for titles -->
+    <!-- Manrope for text -->
+    <!-- STIX for decorative letters -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@200..800&family=Geologica:wght@100..900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
 
 </head>
 <!--Body Start-->
@@ -110,7 +119,7 @@
                                                                 data-i18n="Discography">Discography</a></li>
                                                         <li class="dropdown menu-item"><a href="#section-idiorhythmo"
                                                                 data-i18n="Idiorhythmo">Idiorhythmo</a></li>
-                                                        <li class="dropdown menu-item"><a href="#section-portfolio"
+                                                        <li class="dropdown menu-item"><a href="#section-events"
                                                                 data-i18n="Events">Events</a></li>
                                                         <li class="dropdown menu-item"><a href="#section-pricing"
                                                                 data-i18n="Archive">Archive</a></li>
@@ -203,14 +212,14 @@
                                         <img src="images/about/lyra.jpg" />
                                     </div>
                                     <div id="lamda" class="lamda-container">
-                                        <div class="lamda">λ</div>
+                                        <div class="lamda decorative-font">λ</div>
                                     </div>
                                 </div>
                                 <!-- col -->
                                 <div class="col-lg-6">
                                     <div class="title-wrap margin-bottom-60">
                                         <div class="section-title">
-                                            <h2 class="section-title text-right mb-0" data-i18n="about">
+                                            <h2 class="section-title text-right mb-0 heading-font" data-i18n="about">
                                             </h2>
                                         </div>
                                     </div>
@@ -218,9 +227,10 @@
                                     <div class="accordion model-3" id="accordion2">
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingOne">
-                                                <a class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#collapseFive" aria-expanded="true"
-                                                    aria-controls="collapseFive" data-i18n="who-am-i">Who Am I</a>
+                                                <a class="accordion-button heading-font" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                                    aria-expanded="true" aria-controls="collapseFive"
+                                                    data-i18n="who-am-i"></a>
                                             </h2>
                                             <div id="collapseFive" class="accordion-collapse collapse show"
                                                 aria-labelledby="headingOne" data-bs-parent="#accordion2">
@@ -229,10 +239,10 @@
                                         </div>
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingThree">
-                                                <a class="accordion-button collapsed" type="button"
+                                                <a class="accordion-button collapsed heading-font" type="button"
                                                     data-bs-toggle="collapse" data-bs-target="#collapseSeven"
                                                     aria-expanded="false" aria-controls="collapseSeven"
-                                                    data-i18n="Works">Works</a>
+                                                    data-i18n="Works"></a>
                                             </h2>
                                             <div id="collapseSeven" class="accordion-collapse collapse"
                                                 aria-labelledby="headingThree" data-bs-parent="#accordion2">
@@ -261,7 +271,7 @@
                             <div class="row">
                                 <div class="section-title margin-bottom-40">
                                     <div class="section-title">
-                                        <h2 class="section-title text-left mb-0" data-i18n="discography">
+                                        <h2 class="section-title text-left mb-0 heading-font" data-i18n="discography">
                                         </h2>
                                     </div>
                                 </div>
@@ -288,6 +298,12 @@
                                 <div class="album-image-container">
                                     <img class="album-image" src="images/discography/kryfo.jpg" />
                                 </div>
+                                <div class="album-image-container">
+                                    <img class="album-image" src="images/discography/asprougas.jpg" />
+                                </div>
+                                <div class="album-image-container">
+                                    <img class="album-image" src="images/discography/kryfo.jpg" />
+                                </div>
                                 <a class="button-to" href="features.html">
                                     <span class="more-label" data-i18n="More"></span>
                                     <span class="arrow-right"></span>
@@ -295,7 +311,7 @@
                             </div>
                             <div class="left-column">
                                 <div id="delta" class="delta-container">
-                                    <div class="delta">δ</div>
+                                    <div class="delta decorative-font">δ</div>
                                 </div>
 
                             </div>
@@ -306,10 +322,11 @@
                             <!-- Row -->
                             <div class="row">
                                 <!-- col -->
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 text-section">
                                     <div class="section-title">
                                         <div class="section-title">
-                                            <h2 class="section-title text-left" data-i18n="idiorhytmo_section">
+                                            <h2 class="section-title text-left heading-font"
+                                                data-i18n="idiorhytmo_section">
                                             </h2>
                                         </div>
                                     </div>
@@ -324,17 +341,84 @@
                                         <div data-i18n="idiorhythmo-7"></div>
                                         <div data-i18n="idiorhythmo-8"></div>
                                     </div>
-                                    <a class="button-to" href="features.html">
-                                        <span class="more-label" data-i18n="More"></span>
-                                        <span class="arrow-right"></span>
-                                    </a>
                                 </div>
-                                <div class="col-md-6 align-self-center">
+                                <div class="col-md-6 carousel-container align-self-center">
                                     <!--Service Main Slider-->
-                                    <div class="owl-carousel " data-loop="1" data-nav="1" data-dots="0"
-                                        data-autoplay="0" data-autoplaypause="0" data-autoplaytime="2500"
-                                        data-smartspeed="1000" data-margin="30" data-items="1" data-items-tab="1"
-                                        data-items-mob="1">
+                                    <div class="owl-carousel" data-loop="1" data-nav="1" data-dots="0" data-autoplay="0"
+                                        data-autoplaypause="0" data-autoplaytime="2500" data-smartspeed="1000"
+                                        data-margin="30" data-items="1" data-items-tab="1" data-items-mob="1">
+                                        <!--Item-->
+                                        <div class="item">
+                                            <!-- Service Box -->
+                                            <div class="service-box-wrap service-box-style-1">
+                                                <div class="service-box-inner">
+                                                    <div class="service-thumb mb-4">
+                                                        <img class="img-fluid squared w-100"
+                                                            src="images/idiorhythmo/i1.jpg" alt="Concert Orthes">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Service Box -->
+                                        </div>
+                                        <!--Item-->
+                                        <div class="item">
+                                            <!-- Service Box -->
+                                            <div class="service-box-wrap service-box-style-1">
+                                                <div class="service-box-inner">
+                                                    <div class="service-thumb mb-4">
+                                                        <img class="img-fluid squared w-100"
+                                                            src="images/idiorhythmo/i2.jpg" alt="Concert Margarites">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Service Box -->
+                                        </div>
+                                        <!--Item-->
+                                        <div class="item">
+                                            <!-- Service Box -->
+                                            <div class="service-box-wrap service-box-style-1">
+                                                <div class="service-box-inner">
+                                                    <div class="service-thumb mb-4">
+                                                        <img class="img-fluid squared w-66"
+                                                            src="images/idiorhythmo/i3.jpg" alt="Rehearsal">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Service Box -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row button-row">
+                                <a class="button-to" href="features.html">
+                                    <span class="more-label" data-i18n="More"></span>
+                                    <span class="arrow-right"></span>
+                                </a>
+                                <div id="epsilon" class="epsilon-container">
+                                    <div class="epsilon decorative-font">ε</div>
+                                </div>
+                            </div>
+                            <!-- Row -->
+                        </section>
+                        <!-- Idiorhythmo Section End -->
+                        <!-- Events Section -->
+                        <section id="section-events" class="section-events pad-tb-md-100">
+                            <!-- Row -->
+                            <div class="row">
+                                <div class="section-title">
+                                    <div class="section-title">
+                                        <h2 class="section-title heading-font" data-i18n="events">
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!-- col -->
+                                <div class="col-md-6 carousel-container align-self-center">
+                                    <!--Service Main Slider-->
+                                    <div class="owl-carousel" data-loop="1" data-nav="1" data-dots="0" data-autoplay="0"
+                                        data-autoplaypause="0" data-autoplaytime="2500" data-smartspeed="1000"
+                                        data-margin="30" data-items="1" data-items-tab="1" data-items-mob="1">
                                         <!--Item-->
                                         <div class="item">
                                             <!-- Service Box -->
@@ -377,198 +461,30 @@
 
                                     </div>
                                 </div>
+                                <div class="col-lg-6 text-section">
+                                    <div class="section-text">
+                                        <div data-i18n="idiorhythmo-1"></div>
+                                        <div data-i18n="idiorhythmo-2"></div>
+                                        <div data-i18n="idiorhythmo-3"></div>
+                                        <div data-i18n="idiorhythmo-4"></div>
+                                        <div data-i18n="idiorhythmo-5"></div>
+                                        <a href="https://www.youtube.com/watch?v=VvjbKMIWG8E&list=PLY_dLFuXZOkqIfsEYSFa_BOKrlS66CMUl"
+                                            target="_blank" data-i18n="idiorhythmo-6"></a>
+                                        <div data-i18n="idiorhythmo-7"></div>
+                                        <div data-i18n="idiorhythmo-8"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row button-row">
+                                <a class="button-to" href="features.html">
+                                    <span class="more-label" data-i18n="More"></span>
+                                    <span class="arrow-right"></span>
+                                </a>
                             </div>
                             <!-- Row -->
                         </section>
-                        <!-- Idiorhythmo Section End -->
-                        <!-- Portfolio Section -->
-                        <section id="section-portfolio"
-                            class="portfolio-section pad-bottom-80 bg-grey2 pad-bottom-md-none section-bg-img">
-                            <div class="container">
-                                <div class="row">
-                                    <!-- Col -->
-                                    <div class="offset-md-2 col-md-8">
-                                        <div class="title-wrap text-center">
-                                            <div class="section-title margin-bottom-60">
-                                                <h2 class="section-title margin-top-5 mb-0 text-uppercase">Latest Works
-                                                </h2>
-                                                <span class="section-border-bottom center"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Col -->
-                                    <div class="col-md-12" data-animation="fadeInDown">
-                                        <div class="row portfolio-wrap portfolio-classic">
-                                            <div class="filter-style-1" align="center">
-                                                <button class="btn btn-default filter-button active"
-                                                    data-filter="all">All</button>
-                                                <button class="btn btn-default filter-button"
-                                                    data-filter="web">Wedding</button>
-                                                <button class="btn btn-default filter-button"
-                                                    data-filter="landing">Party</button>
-                                                <button class="btn btn-default filter-button" data-filter="blog">Out
-                                                    Door</button>
-                                            </div>
-                                            <br>
-
-                                            <!-- .portfolio-item -->
-                                            <div
-                                                class="portfolio-item portfolio-overlay-wrap col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web">
-                                                <!-- .portfolio-thumb -->
-                                                <div class="portfolio-thumb relative">
-                                                    <img src="images/portfolio/portfolio-studio/w1.jpg"
-                                                        class="img-fluid" alt="" title="Invest Advices" />
-                                                    <!-- .portfolio-wrap -->
-                                                    <div class="portfolio-wrap">
-                                                        <div class="portfolio-details-overlay">
-                                                            <h3 class="mb-3"><a href="portfolio-single.html"
-                                                                    target="_blank">Name Of Work</a></h3>
-                                                            <div class="portfolio-icons">
-                                                                <a href="portfolio-single.html" class="link-icon"
-                                                                    target="_blank">
-                                                                    <i class="icon-link"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- .portfolio-wrap -->
-                                                </div>
-                                            </div>
-                                            <!-- .portfolio-item end-->
-                                            <!-- .portfolio-item -->
-                                            <div
-                                                class="portfolio-item portfolio-overlay-wrap col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web">
-                                                <!-- .portfolio-thumb -->
-                                                <div class="portfolio-thumb relative">
-                                                    <img src="images/portfolio//portfolio-studio/w2.jpg"
-                                                        class="img-fluid" alt="" title="Simple Solutions" />
-                                                    <!-- .portfolio-wrap -->
-                                                    <div class="portfolio-wrap">
-                                                        <div class="portfolio-details-overlay">
-                                                            <h3 class="mb-3"><a href="portfolio-single.html"
-                                                                    target="_blank">Name Of Work</a></h3>
-                                                            <div class="portfolio-icons">
-                                                                <a href="portfolio-single.html" class="link-icon"
-                                                                    target="_blank">
-                                                                    <i class="icon-link"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- .portfolio-wrap -->
-                                                </div>
-                                            </div>
-                                            <!-- .portfolio-item end-->
-                                            <!-- .portfolio-item -->
-                                            <div
-                                                class="portfolio-item portfolio-overlay-wrap col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web">
-                                                <!-- .portfolio-thumb -->
-                                                <div class="portfolio-thumb relative">
-                                                    <img src="images/portfolio/portfolio-studio/w3.jpg"
-                                                        class="img-fluid" alt="" title="Finance Consulting" />
-                                                    <!-- .portfolio-wrap -->
-                                                    <div class="portfolio-wrap">
-                                                        <div class="portfolio-details-overlay">
-                                                            <h3 class="mb-3"><a href="portfolio-single.html"
-                                                                    target="_blank">Name Of Work</a></h3>
-                                                            <div class="portfolio-icons">
-                                                                <a href="portfolio-single.html" class="link-icon"
-                                                                    target="_blank">
-                                                                    <i class="icon-link"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- .portfolio-wrap -->
-                                                </div>
-                                            </div>
-                                            <!-- .portfolio-item end-->
-                                            <!-- .portfolio-item -->
-                                            <div
-                                                class="portfolio-item portfolio-overlay-wrap col-lg-4 col-md-4 col-sm-4 col-xs-6 filter landing">
-                                                <!-- .portfolio-thumb -->
-                                                <div class="portfolio-thumb relative">
-                                                    <img src="images/portfolio/portfolio-studio/party-1.jpg"
-                                                        class="img-fluid" alt="" title="Stock Marketing Update" />
-                                                    <!-- .portfolio-wrap -->
-                                                    <div class="portfolio-wrap">
-                                                        <div class="portfolio-details-overlay">
-                                                            <h3 class="mb-3"><a href="portfolio-single.html"
-                                                                    target="_blank">Name Of Work</a></h3>
-                                                            <div class="portfolio-icons">
-                                                                <a href="portfolio-single.html" class="link-icon"
-                                                                    target="_blank">
-                                                                    <i class="icon-link"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- .portfolio-wrap -->
-                                                </div>
-                                            </div>
-                                            <!-- .portfolio-item end-->
-                                            <!-- .portfolio-item -->
-                                            <div
-                                                class="portfolio-item portfolio-overlay-wrap col-lg-4 col-md-4 col-sm-4 col-xs-6 filter blog">
-                                                <!-- .portfolio-thumb -->
-                                                <div class="portfolio-thumb relative">
-                                                    <img src="images/portfolio//portfolio-studio/out1.jpg"
-                                                        class="img-fluid" alt="" title="Simple Solutions" />
-                                                    <!-- .portfolio-wrap -->
-                                                    <div class="portfolio-wrap">
-                                                        <div class="portfolio-details-overlay">
-                                                            <h3 class="mb-3"><a href="portfolio-single.html"
-                                                                    target="_blank">Name Of Work</a></h3>
-                                                            <div class="portfolio-icons">
-                                                                <a href="portfolio-single.html" class="link-icon"
-                                                                    target="_blank">
-                                                                    <i class="icon-link"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- .portfolio-wrap -->
-                                                </div>
-                                            </div>
-                                            <!-- .portfolio-item end-->
-                                            <!-- .portfolio-item -->
-                                            <div
-                                                class="portfolio-item portfolio-overlay-wrap col-lg-4 col-md-4 col-sm-4 col-xs-6 filter blog">
-                                                <!-- .portfolio-thumb -->
-                                                <div class="portfolio-thumb relative">
-                                                    <img src="images/portfolio/portfolio-studio/out2.jpg"
-                                                        class="img-fluid" alt="" title="Finance Solution" />
-                                                    <!-- .portfolio-wrap -->
-                                                    <div class="portfolio-wrap">
-                                                        <div class="portfolio-details-overlay">
-                                                            <h3 class="mb-3"><a href="portfolio-single.html"
-                                                                    target="_blank">Name Of Work</a></h3>
-                                                            <div class="portfolio-icons">
-                                                                <a href="portfolio-single.html" class="link-icon"
-                                                                    target="_blank">
-                                                                    <i class="icon-link"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- .portfolio-wrap -->
-                                                </div>
-                                            </div>
-                                            <!-- .portfolio-item end-->
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <a class="btn-link" href="portfolio-list.html">
-                                    More
-                                </a>
-                            </div>
-                        </section>
-                        <!-- Portfolio Section End -->
+                        <!-- Events Section End -->
                         <!-- Pricing Section -->
                         <section id="section-pricing" class="section-pricing pad-top-90" data-animation="fadeInDown">
                             <div class="container">
@@ -1666,6 +1582,8 @@
     <script src="rs-plugin/js/home-25/rbtools.min.js"></script>
     <script src="rs-plugin/js/home-25/home-25.js"></script>
     <script src="rs-plugin/js/home-25/rs6.min.js"></script>
+    <!-- Owl-slider automation -->
+    <script src="js/owl-auto-slide.js"></script>
 </body>
 <!-- Body End -->
 

@@ -75,8 +75,6 @@
   01. Global Style 
 *************************************/
 
-@import url('https://fonts.googleapis.com/css?family=Arimo:700,500,400,300|Oswald:700,500,400,300|Poppins:700,400|Shadows+Into+Light:400|Great+Vibes:400|Pacifico:400');
-
 :root {
     --primary: black;
     --bg: white;
@@ -93,7 +91,8 @@
 }
 
 body {
-    font-family: 'Arimo', sans-serif;
+    /* font-family: 'Manrope', sans-serif; */
+    font-family: "Geologica", sans-serif;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
     font-size: 16px;
@@ -126,7 +125,8 @@ input,
 button,
 select,
 textarea {
-    font-family: 'Arimo', sans-serif;
+    /* font-family: 'Manrope', sans-serif; */
+    font-family: "Geologica", sans-serif;
 }
 
 select {
@@ -1039,7 +1039,8 @@ ul.nav.navbar-main > li:last-child > a {
 }
 
 .logobar-items .header-info h6 {
-    font-family: 'Arimo', sans-serif;
+    /* font-family: 'Manrope', sans-serif; */
+    font-family: "Geologica", sans-serif;
 }
 
 .logobar .header-info .header-icon > i {
@@ -2673,7 +2674,8 @@ ul.nav.navbar-main > li > a {
 ul.nav.navbar-main > li > a {
     color: #000000;
     display: block;
-    font-family: 'Arimo', sans-serif;
+    font-family: "Geologica", sans-serif;
+    /* font-family: 'Manrope', sans-serif; */
     font-weight: 400;
     font-size: 14px;
 }

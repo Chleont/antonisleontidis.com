@@ -37,7 +37,8 @@ const translations = {
         "idiorhythmo-5": "After being taught to the ensemble, these recordings are orchestrated and presented in a form that connects younger generations of the group with this music, which is no longer heard on the island of Crete.",
         "idiorhythmo-6": "Here you can listen to the recordings of 4 pieces by Idiorhythmo made in April 2024",
         "idiorhythmo-7": "In June 2024, \"Idiorhythmo\" performed these pieces live for the first time in Margarites, Mylopotamos, and later on the island of Anafi at the \"Anafono Festival\".",
-        "idiorhythmo-8": "The percussion lessons and direction of the ensemble are led by Haris Bakas."
+        "idiorhythmo-8": "The percussion lessons and direction of the ensemble are led by Haris Bakas.",
+        events: "events",
     },
     fr: {
         "idiorhytmo_section": "ensemble idiorhythmo",
@@ -77,7 +78,8 @@ const translations = {
         "idiorhythmo-5": "Ces enregistrements, une fois transmis à l’ensemble, sont orchestrés et présentés dans une forme qui rapproche les jeunes membres de ce groupe d’une musique qui ne se fait plus entendre sur l’île de Crète.",
         "idiorhythmo-6": "Vous pouvez écouter ici les enregistrements de 4 morceaux de l’ensemble Idiorhythmo réalisés en avril 2024",
         "idiorhythmo-7": "En juin 2024, \"Idiorhythmo\" a présenté ces morceaux en concert pour la première fois à Margarites, Mylopotamos, puis sur l’île d’Anafi au \"Anafono Festival\".",
-        "idiorhythmo-8": "Les cours et la direction des percussions de l’ensemble sont assurés par Haris Bakas."
+        "idiorhythmo-8": "Les cours et la direction des percussions de l’ensemble sont assurés par Haris Bakas.",
+        events: "événements",
     },
     el: {
         "idiorhytmo_section": "σύνολο ιδιόρρυθμο",
@@ -117,7 +119,8 @@ const translations = {
         "idiorhythmo-5": "Οι ηχογραφήσεις αυτές αφού διδαχθούν στο σύνολο ενορχηστρώνονται και έρχονται σε μια μορφή η οποία φέρνει κοντά τους νέους ανθρώπους το συνόλου και τους συνδέει με αυτή την μουσική που δεν ακούγεται πια στο νησί της Κρήτης.",
         "idiorhythmo-6": "Εδώ μπορείτε να ακούσετε τις ηχογραφήσεις 4 κομματιών του Ιδιόρρυθμου που έγιναν τον Απρίλιο του 2024",
         "idiorhythmo-7": "Τον Ιούνιο του 2024 το \"Ιδιόρρυθμο\" παρουσίασε πρώτη φορά τα κομμάτια ζωντανά στις Μαργαρίτες Μυλοποτάμου και στην συνέχεια στο νησί της Ανάφης στο \"Anafono Festival\".",
-        "idiorhythmo-8": "Το μάθημα και την επιμέλεια των κρουστών του συνόλου έχει ο Χάρης Μπάκας."
+        "idiorhythmo-8": "Το μάθημα και την επιμέλεια των κρουστών του συνόλου έχει ο Χάρης Μπάκας.",
+        events: "εκδηλώσεις",
     }
 };
 

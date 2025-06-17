@@ -1,5 +1,20 @@
 /* General & landing page */
 
+.rs-layer {
+    /* font-family: 'EB Garamond', serif !important; */
+    font-family: "STIX Two Text", serif !important;
+}
+
+.heading-font {
+    font-family: "STIX Two Text", serif !important;
+    /* font-family: 'EB Garamond', serif !important; */
+}
+
+.decorative-font {
+    /* font-family: 'EB Garamond', serif !important; */
+    font-family: "STIX Two Text", serif !important;
+}
+
 .language-switcher {
     margin-left: 5em;
 }
@@ -88,7 +103,6 @@
     justify-content: start;
     align-items: start;
     width: fit-content;
-    margin-right: 2em;
     overflow: visible;
 }
 
@@ -118,7 +132,8 @@
 }
 
 .section-about .section-title {
-    color: var(--primary)
+    color: var(--primary);
+    font-weight: 700;
 }
 
 .section-about a {
@@ -187,6 +202,10 @@
     color: var(--secondary)
 }
 
+.section-about .accordion {
+    text-align: right;
+}
+
 @media (max-width: 1024px) {
 
     .lamda-container {
@@ -197,10 +216,15 @@
         margin-left: auto;
         height: 33vw;
         width: auto;
+        transform: translateY(40px);
     }
 
     .round-image-container img {
         width: 100%
+    }
+
+    .section-about .accordion {
+        text-align: left;
     }
 }
 
@@ -222,6 +246,7 @@
 
 .section-discography h2 {
     font-size: 7em !important;
+    font-weight: 700;
 }
 
 .section-discography .album {
@@ -231,10 +256,12 @@
     align-items: center;
     justify-content: start;
     padding: .4em 4em;
+    gap: 1em;
 }
 
 .section-discography .album-year {
-    margin-right: 1em;
+    width: 3em;
+    text-align: end;
     font-weight: 100;
     cursor: default;
 }
@@ -254,8 +281,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: end;
-    gap: 7.5vh;
-    padding-right: 6em;
+    gap: 1em;
+    width: 100%;
 }
 
 .album-image-container {
@@ -278,7 +305,8 @@
     bottom: 0vh;
     height: 0;
     width: 0;
-    font-size: 25vh;
+    font-size: 30vh;
+    font-weight: 800;
     cursor: default;
     z-index: 0;
     color: var(--primary);
@@ -312,10 +340,9 @@
     height: fit-content;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 0;
+    padding-top: 3em;
     color: var(--primary) !important;
     background-color: var(--bg);
-    overflow-y: visible
 }
 
 
@@ -325,11 +352,12 @@
 
 
 .section-idiorhythmo h2 {
+    font-weight: 700;
     font-size: 7em !important;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    line-height: 1.2em;
+    line-height: 1em;
     height: fit-content;
 }
 
@@ -378,5 +406,160 @@
     opacity: 1;
 }
 
+.epsilon-container {
+    margin-left: auto;
+    display: flex;
+    height: auto;
+    width: 50%;
+    min-height: fit-content;
+    flex-direction: column;
+    text-align: center;
+    justify-content: end;
+}
 
-@media (max-width: 1024px) {}
+.epsilon {
+    font-size: 30vh;
+    font-weight: 800;
+    cursor: default;
+    color: var(--primary);
+}
+
+
+@media (max-width: 1024px) {
+    .section-idiorhythmo .carousel-container {
+        width: 100%;
+    }
+
+    .section-idiorhythmo .text-section {
+        width: 100%;
+    }
+
+    .section-idiorhythmo .owl-carousel,
+    .section-idiorhythmo .button-row,
+    .section-idiorhythmo .button-to {
+        padding: 0;
+    }
+
+    .section-idiorhythmo .button-to {
+        margin-left: auto;
+    }
+
+    .epsilon-container {
+        visibility: hidden;
+        width: 0;
+        margin-left: 1em;
+        padding: 0;
+    }
+
+}
+
+
+/* Events */
+
+.section-events {
+    display: flex !important;
+    flex-direction: column;
+    height: fit-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3em;
+    color: var(--primary) !important;
+    background-color: var(--bg);
+    overflow-y: visible
+}
+
+
+.section-events .section-title {
+    text-align: right;
+    color: var(--primary);
+}
+
+
+.section-events h2 {
+    font-weight: 700;
+    font-size: 7em !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 1em;
+    height: fit-content;
+}
+
+.section-events .section-text {
+    margin-bottom: 2em;
+    text-align: right;
+}
+
+.section-events .section-text a {
+    color: var(--primary) !important;
+}
+
+.section-events .section-text a:hover {
+    text-decoration: underline;
+}
+
+.section-events .owl-nav {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-events .owl-next {
+    margin: 0 1em 0 auto;
+}
+
+.section-events .owl-prev {
+    margin: 0 auto 0 1em;
+}
+
+.section-events .button-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-events .button-to {
+    margin-left: auto;
+}
+
+.section-events .owl-prev span::after,
+.section-events .owl-next span::after {
+    background-color: var(--primary);
+    opacity: 0.4;
+}
+
+.section-events .owl-prev span::before,
+.section-events .owl-next span::before {
+    color: var(--bg);
+}
+
+.section-events .owl-prev:hover span::after,
+.section-events .owl-next:hover span::after {
+    opacity: 1;
+}
+
+
+@media (max-width: 1024px) {
+
+    .section-events .section-title {
+        text-align: left;
+    }
+
+    .section-events .carousel-container {
+        width: 100%;
+    }
+
+    .section-events .text-section {
+        width: 100%;
+        text-align: left;
+    }
+
+    .section-events .owl-carousel,
+    .section-events .button-row,
+    .section-events .button-to {
+        padding: 0;
+    }
+
+}
