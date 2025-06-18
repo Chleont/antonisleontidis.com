@@ -132,6 +132,7 @@ function translate(lang) {
         }
     });
     document.documentElement.lang = lang;
+    window.dispatchEvent(new CustomEvent('localeChange', { detail: lang }));
 }
 
 document.getElementById("language-switcher-en").addEventListener("click", (e) => {

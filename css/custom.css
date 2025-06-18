@@ -557,13 +557,21 @@ h2 {
     text-align: right;
 }
 
-.section-events .section-text a {
-    color: var(--primary) !important;
+.section-events .event-container {
+    margin-bottom: 2em;
 }
 
-.section-events .section-text a:hover {
-    text-decoration: underline;
+.section-events .event-title {
+    font-weight: 700;
+    font-size: 20px
 }
+
+.section-events .event-date {
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.section-events .event-container {}
 
 .section-events .owl-nav {
     width: 100%;
