@@ -1,7 +1,11 @@
 const translations = {
     en: {
         "idiorhytmo_section": "idiorhythmo ensemble",
-        More: "More",
+        "archive_material": "archive material",
+        "up": "up",
+        "coming": "coming",
+        "&news": "& news",
+        More: "more",
         About: "About",
         about: "about",
         Discography: "Discography",
@@ -42,7 +46,11 @@ const translations = {
     },
     fr: {
         "idiorhytmo_section": "ensemble idiorhythmo",
-        More: "Voir plus",
+        "archive_material": "matériel d'archives",
+        "up": "à",
+        "coming": "venir",
+        "&news": "& actualités",
+        More: "voir plus",
         About: "À propos",
         about: "à propos",
         Discography: "Discographie",
@@ -83,7 +91,11 @@ const translations = {
     },
     el: {
         "idiorhytmo_section": "σύνολο ιδιόρρυθμο",
-        More: "Περισσότερα",
+        "archive_material": "αρχειακό υλικό",
+        "up": "επ",
+        "coming": "ερχόμενα",
+        "&news": "& νέα",
+        More: "περισσότερα",
         About: "Σχετικά",
         about: "σχετικά",
         Discography: "Δισκογραφία",

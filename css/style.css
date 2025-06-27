@@ -76,7 +76,7 @@
 *************************************/
 
 :root {
-    --primary: black;
+    --primary: #101010;
     --bg: white;
     --secondary: rgb(127, 127, 127);
 }
@@ -85,7 +85,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --primary: white;
-        --bg: black;
+        --bg: #101010;
         --secondary: rgb(175, 175, 175);
     }
 }
@@ -315,8 +315,6 @@ h4,
 h5,
 h6 {
     font-weight: 400;
-    font-family: 'Oswald', sans-serif;
-    color: #252525;
 }
 
 h1 {

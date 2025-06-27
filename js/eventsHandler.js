@@ -11,6 +11,7 @@ function updateEventsPage(list) {
         }
     });
     document.getElementById('events-container').innerHTML = element;
+    document.getElementById('upcoming-container').innerHTML = element;
 }
 
 
