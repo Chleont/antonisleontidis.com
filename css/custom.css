@@ -87,6 +87,12 @@ h2 {
     font-size: 22px !important;
 }
 
+.mobile-lang-switch {
+    margin: auto 0px auto auto;
+    width: fit-content;
+    height: 60px;
+}
+
 .mobile-header {
     background-color: var(--bg) !important;
 }
