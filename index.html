@@ -125,9 +125,9 @@
                                                                 data-i18n="Events">Events</a></li>
                                                         <li class="dropdown menu-item"><a href="#section-archive"
                                                                 data-i18n="Archive">Archive</a></li>
-                                                        <li class="dropdown menu-item"><a href="#section-upcoming"
-                                                                data-i18n="Upcoming">Upcoming</a></li>
-                                                        <li class="dropdown menu-item"><a href="#section-contact"
+                                                        <!-- <li class="dropdown menu-item"><a href="#section-upcoming"
+                                                                data-i18n="Upcoming">Upcoming</a></li> -->
+                                                        <li class="dropdown menu-item"><a href="#footer"
                                                                 data-i18n="Contact">Contact</a></li>
                                                     </ul>
                                                 </li>
@@ -233,7 +233,7 @@
                                                 <a class="accordion-button heading-font" type="button"
                                                     data-bs-toggle="collapse" data-bs-target="#collapseFive"
                                                     aria-expanded="true" aria-controls="collapseFive"
-                                                    data-i18n="who-am-i"></a>
+                                                    data-i18n="biography"></a>
                                             </h2>
                                             <div id="collapseFive" class="accordion-collapse collapse show"
                                                 aria-labelledby="headingOne" data-bs-parent="#accordion2">
@@ -245,7 +245,7 @@
                                                 <a class="accordion-button collapsed heading-font" type="button"
                                                     data-bs-toggle="collapse" data-bs-target="#collapseSeven"
                                                     aria-expanded="false" aria-controls="collapseSeven"
-                                                    data-i18n="Works"></a>
+                                                    data-i18n="works"></a>
                                             </h2>
                                             <div id="collapseSeven" class="accordion-collapse collapse"
                                                 aria-labelledby="headingThree" data-bs-parent="#accordion2">
@@ -291,8 +291,7 @@
                             </div>
                             <div class="album">
                                 <div class="album-year" data-i18n="discography-content-3-year"></div>
-                                <a class="album-title" href="https://www.youtube.com/watch?v=8ls-PBFLiJs"
-                                    target="_blank" data-i18n="discography-content-3-title"></a>
+                                <div class="album-title" href="" data-i18n="discography-content-3-title"></div>
                             </div>
                             <div class="album-image-row">
                                 <div class="album-image-container">
@@ -466,6 +465,7 @@
                                 </div>
                                 <div class="col-lg-6 text-section">
                                     <div id="events-container" class="section-text">
+                                        <div id="no-upcoming" data-i18n="no-upcoming"></div>
                                     </div>
                                 </div>
                             </div>
@@ -522,7 +522,7 @@
                         </section>
                         <!-- Archive Section End -->
                         <!-- upcoming Section -->
-                        <section id="section-upcoming" class="section-upcoming">
+                        <!-- <section id="section-upcoming" class="section-upcoming">
                             <div class="col-lg-6 text-section">
                                 <div id="upcoming-container" class="section-text">
                                 </div>
@@ -539,187 +539,9 @@
                                     </h2>
 
                                 </div>
-                                <!-- <h2 class="title-container heading-font" data-i18n="up"></h2>
-                                        <h2 class="title-container heading-font" data-i18n="coming"></h2>
-                                        <h2 class="title-container heading-font" data-i18n="&news"></h2> -->
                             </div>
-                        </section>
-                        <!-- upcoming Section End-->
-                        <!-- Desktop Section -->
-                        <section id="section-about" class="section-about">
-                            <div class="container">
-                                <!-- Row -->
-                                <div class="row d-flex align-items-center">
-                                    <!-- Col -->
-                                    <div class="col-lg-6 pe-lg-5">
-                                        <img src="images/about/lyra.jpg" class="b-radius-5 filter-dark" alt="about-img">
-                                    </div>
-                                    <!-- .col -->
-                                    <!-- Col -->
-                                    <div class="col-lg-6">
-                                        <div class="feature-box-wrap f-list-3 mb-2">
-                                            <div class="feature-box-details">
-                                                <p class="mb-2"><strong>Lorem ipsum dolor sit amet, consectetur
-                                                        adipisicing elit. Facilis minus pariatur eligendi sunt
-                                                        doloremque vitae reiciendis tempore voluptatibus quis
-                                                        architecto
-                                                        suscipit magnam.</strong></p>
-                                                <p class="mb-1">Lorem ipsum dolor sit amet, consectetur
-                                                    adipisicing
-                                                    elit. Repudiandae odit iste exercitationem. Adipisci ea
-                                                    commodi unde
-                                                    nam placeat cupiditate quasi a ducimus rem consequuntur ex
-                                                    eligendi
-                                                    minima voluptatem assumenda voluptas quidem sit maiores odio
-                                                    velit
-                                                    voluptate.</p>
-                                                <p class="mb-0">Adipisci ea commodi unde nam placeat cupiditate
-                                                    quasi a
-                                                    ducimus rem consequuntur ex eligendi minima voluptatem
-                                                    assumenda
-                                                    voluptas quidem sit maiores odio velit voluptate.</p>
-                                            </div>
-                                        </div>
-                                        <div class="button-section margin-top-35">
-                                            <a class="btn btn-default" href="contact-4.html" title="Learn More">Hurry
-                                                Up</a>
-                                        </div>
-                                    </div>
-                                    <!-- Col -->
-                                </div>
-                                <!-- Row -->
-                            </div>
-                            <!-- Container -->
-                        </section>
-                        <!-- Desktop Section End -->
-                        <!-- Conatct Us Section -->
-                        <section id="section-contact" class="section-bg-img bg-fixed" data-bg="images/bg/bg-15.jpg"
-                            style="background-image: url(&quot;images/bg/bg-15.jpg&quot;);">
-                            <div class="container">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="offset-md-2 col-md-8">
-                                            <div class="title-wrap text-center">
-                                                <div class="section-title">
-                                                    <h2 class="title mb-0 text-uppercase text-white">Contact
-                                                        <span class="theme-color">Us</span>
-                                                    </h2>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-12 contact-info">
-                                                <div class="row text-center">
-                                                    <div class="col-md-4">
-                                                        <div
-                                                            class="feature-box-wrap f-box-style-2 text-center relative">
-                                                            <div class="feature-box-details">
-                                                                <div class="feature-icon margin-bottom-20">
-                                                                    <span
-                                                                        class="bi bi-pin-map b-radius-50 d-block"></span>
-                                                                </div>
-                                                                <div class="feature-content">
-                                                                    <div
-                                                                        class="feature-title relative margin-bottom-10">
-                                                                        <h5 class="text-white">Address</h5>
-                                                                    </div>
-                                                                    <p class="mb-0 text-white">49 Archdale, 2B
-                                                                        Charleston, New York City, USA</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-4">
-                                                        <div
-                                                            class="feature-box-wrap f-box-style-2 text-center relative">
-                                                            <div class="feature-box-details">
-                                                                <div class="feature-icon margin-bottom-20">
-                                                                    <span
-                                                                        class="bi bi-headset b-radius-50 d-block"></span>
-                                                                </div>
-                                                                <div class="feature-content">
-                                                                    <div
-                                                                        class="feature-title relative margin-bottom-10">
-                                                                        <h5 class="text-white">Phones</h5>
-                                                                    </div>
-                                                                    <span class="mb-0 text-white">Support: <a
-                                                                            href="tel:+(123)456-7890"
-                                                                            class="text-white">+(123)
-                                                                            456-7890</a></span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-4">
-                                                        <div
-                                                            class="feature-box-wrap f-box-style-2 text-center relative">
-                                                            <div class="feature-box-details">
-                                                                <div class="feature-icon margin-bottom-20">
-                                                                    <span
-                                                                        class="bi bi-envelope b-radius-50 d-block"></span>
-                                                                </div>
-                                                                <div class="feature-content">
-                                                                    <div
-                                                                        class="feature-title relative margin-bottom-10">
-                                                                        <h5 class="text-white">Email Addresses
-                                                                        </h5>
-                                                                    </div>
-                                                                    <span class="mb-0 text-white">Support: <a
-                                                                            href="mailto:support@example.com"
-                                                                            class="text-white">support@example.com</a></span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <hr class="my-4">
-                                            </div>
-
-                                            <p class="form-message" style="display: none;"></p>
-                                            <div class="contact-form" data-animation="fadeInLeft">
-                                                <!-- Form Begins -->
-                                                <form role="form" name="contactform" id="contactform" method="post"
-                                                    action="php/contact-form.php">
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <!-- Field 1 -->
-                                                            <div class="input-text form-group">
-                                                                <input type="text" name="contact_name"
-                                                                    class="input-name form-control"
-                                                                    placeholder="Full Name" />
-                                                            </div>
-                                                            <!-- Field 2 -->
-                                                            <div class="input-email form-group">
-                                                                <input type="email" name="contact_email"
-                                                                    class="input-email form-control"
-                                                                    placeholder="Email" />
-                                                            </div>
-                                                            <!-- Field 3 -->
-                                                            <div class="input-email form-group">
-                                                                <input type="text" name="contact_phone"
-                                                                    class="input-phone form-control"
-                                                                    placeholder="Phone" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <!-- Field 4 -->
-                                                            <div class="textarea-message form-group pad-bottom-10">
-                                                                <textarea name="contact_message"
-                                                                    class="textarea-message form-control"
-                                                                    placeholder="Message" rows="4"></textarea>
-                                                            </div>
-                                                            <!-- Button -->
-                                                            <button class="btn btn-default btn-block" type="submit">Send
-                                                                Now <i class="icon-paper-plane ms-1"></i></button>
-                                                        </div>
-                                                    </div>
-                                            </div>
-                                            </form>
-                                            <!-- Form Ends -->
-                                        </div>
-                                    </div>
-                        </section>
-                        <!-- Conatct Us Section End -->
+                        </section> -->
+                        <!-- upcoming Section End -->
                     </div>
                 </div>
             </div>
@@ -728,169 +550,19 @@
         <!--page-wrapper-->
 
         <!-- Footer -->
-        <footer id="footer" class="footer bg-grey2 footer-1">
-            <!-- Footer Widgets Columns Posibilities 4 -->
-            <div class="footer-widgets">
-                <div class="footer-middle-wrap">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-3 widget text-widget">
-                                <div class="widget-title">
-                                    <!-- Title -->
-                                    <h3 class="title text-uppercase">About Us</h3>
-                                </div>
-                                <!-- Text -->
-                                <div class="widget-text margin-bottom-15">
-                                    <p>Mist is a mobile friendly business template specially designed.</p>
-                                </div>
-                                <nav>
-                                    <ul class="contact-info">
-                                        <!-- List Items -->
-                                        <li>
-                                            <i aria-hidden="true" class="ti-location-pin theme-color"></i>
-                                            <span> No.
-                                                12, Ribon Building,
-                                                Walse street, Australia.</span>
-                                        </li>
-                                        <li>
-                                            <i aria-hidden="true" class="ti-email theme-color"></i> <a
-                                                href="mailto:info@zozothemes.com">
-                                                info@zozothemes.com</a></span>
-                                        </li>
-                                        <li>
-                                            <i aria-hidden="true" class="ti-headphone theme-color"></i> <a
-                                                href="tel:+(123) 456-7890"> +(123) 456-7890</a></span>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <!-- Col -->
-                            <div class="col-lg-3 widget text-widget">
-                                <div class="widget-title">
-                                    <!-- Title -->
-                                    <h3 class="title text-uppercase">Blog Roll</h3>
-                                </div>
-                                <!-- Text -->
-                                <div class="menu-quick-links">
-                                    <ul class="menu">
-                                        <li class="menu-item"><a href="#">Complete Documentations</a></li>
-                                        <li class="menu-item"><a href="#">Additional Plugins & Modules</a></li>
-                                        <li class="menu-item"><a href="#">Child Themes</a></li>
-                                        <li class="menu-item"><a href="#">Support Forums</a></li>
-                                        <li class="menu-item"><a href="#">Useful Blog</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Col -->
-                            <div class="col-lg-3 widget recent-posts">
-                                <div class="widget-title">
-                                    <!-- Title -->
-                                    <h3 class="title text-uppercase">Latest News</h3>
-                                </div>
-                                <nav>
-                                    <ul class="footer-list-posts">
-                                        <!-- List Items -->
-                                        <li>
-                                            <div class="side-image">
-                                                <a href="blog-single-right-sidebar.html"><img width="80" height="80"
-                                                        src="images/blog/thumb/blog-thumb1.jpg"
-                                                        class="img-responsive wp-post-image" alt="Blog"></a>
-                                            </div>
-                                            <div class="side-item-text"><a href="blog-single-right-sidebar.html">Sample
-                                                    Audio Post</a>
-                                                <span class="post-date d-block">Oct 21, 2019</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="side-image">
-                                                <a href="blog-single-right-sidebar.html"><img width="80" height="80"
-                                                        src="images/blog/thumb/blog-thumb2.jpg"
-                                                        class="img-responsive wp-post-image" alt="Blog"></a>
-                                            </div>
-                                            <div class="side-item-text"><a href="blog-single-right-sidebar.html">Sample
-                                                    Video Post</a>
-                                                <span class="post-date d-block">Oct 21, 2019</span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <!-- Col -->
-                            <div class="col-lg-3 widget contact-info-widget">
-                                <div class="widget-title">
-                                    <!-- Title -->
-                                    <h3 class="title text-uppercase">Newsletter Signup</h3>
-                                </div>
-                                <div class="footer-counter counter-value text-uppercase mt-3">
-                                    <h4><span class="counter-suffix">Total Projects : </span><span class="counter-up"
-                                            data-count="3550">0</span></h4>
-                                </div>
-                                <div class="footer-counter counter-value text-uppercase">
-                                    <h4><span class="counter-suffix">Happy Clients : </span><span class="counter-up"
-                                            data-count="2550">0</span></h4>
-                                </div>
-                                <div class="social-icons mt-3 mb-3">
-                                    <a href="#" class="social-fb"><span class="ti-facebook"></span></a>
-                                    <a href="#" class="social-twitter"><span class="ti-twitter"></span></a>
-                                    <a href="#" class="social-instagram"><span class="ti-instagram"></span></a>
-                                    <a href="#" class="social-pinterest"><span class="ti-pinterest"></span></a>
-                                    <a href="#" class="social-youtube"><span class="ti-youtube"></span></a>
-                                </div>
-                                <div class="mailchimp-widget-wrap">
-                                    <!-- subscribe form -->
-                                    <form id="subscribe-form-1" class="subscribe-form" action="inc/function.php">
-                                        <div class="input-group add-on">
-                                            <input type="text" class="form-control" name="mcemail" autocomplete="off"
-                                                id="mcemail-1" placeholder="Email Address">
-                                            <div class="input-group-btn">
-                                                <button class="btn btn-default subscribe-btn" type="submit"><i
-                                                        class="ti-email"></i></button>
-                                            </div>
-                                        </div>
-                                        <p class="subscribe-status-msg hide"></p>
-                                    </form>
-                                </div>
-                            </div>
-                            <!-- Col -->
-                        </div>
-                    </div>
-                </div>
+        <footer id="footer" class="footer">
+            <div class="email">
+                <a class="email-btn" type="submit" href="mailto:antleontidis@gmail.com" target="_blank"><i
+                        class="ti-email"></i></a>
+                <div class="email-address">antonisleontidis@gmail.com</div>
             </div>
-            <!--Footer Copyright Columns Posibilities 4-->
-            <div class="footer-copyright bg-grey">
-                <div class="footer-bottom-wrap pad-tb-20">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 copyright-section">
-                                <ul class="footer-bottom-items pull-left">
-                                    <li class="nav-item">
-                                        <div class="nav-item-inner copyright">
-                                            Copyrights © 2023 <a
-                                                href="https://zozothemes.com/html/mist/index-master.html">Mist</a>.
-                                            Designed by
-                                            <a href="https://zozothemes.com/">Zozothemes</a>
-                                        </div>
-                                    </li>
-                                    <ul class="footer-bottom-items footer-menu">
-                                        <li class="nav-item">
-                                            <a href="#">Terms of Use</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#">Privacy Policy</a>
-                                        </li>
-                                    </ul>
-                                </ul>
-                                <ul class="footer-bottom-items pull-right">
-                                    <div class="move-top page-scroll">
-                                        <a href="#page">
-                                            <i class="bi bi-arrow-up"></i>
-                                        </a>
-                                    </div>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="social-icons mt-3 mb-3">
+                <a href="https://www.facebook.com/antonis.leontidis/" target="_blank" class="social-fb"><span
+                        class="ti-facebook"></span></a>
+                <a href="https://www.instagram.com/antonis_leontidis/" target="_blank" class="social-instagram"><span
+                        class="ti-instagram"></span></a>
+                <a href="https://www.youtube.com/@antonisleontidis3895" target="_blank" class="social-youtube"><span
+                        class="ti-youtube"></span></a>
             </div>
         </footer>
         <!-- Footer -->
