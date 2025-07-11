@@ -1,25 +1,15 @@
-function sortByYear(array) {
-    return array.slice().sort((a, b) => a.date - b.date);
-}
-
-
 function updateDiscographyPage(list) {
-    let sortedList = sortByYear(list);
-    let elementsList = '';
-    sortedList.map(each => {
+    list.map(each => {
         let description = '';
         each.description.map(text => { description += `<p class='album-description'>${text}</p>`; });
         let contributors = '';
-        each.contributors.map(contributor => { contributors += `<p class='album-contributor'><span class='contributor-role'>${contributor.jobDone}</span>: <span class='contributor-name'>${contributor.name}</span></p>`; });
-        elementsList =
-            `<div class='event-container'>
-            <div class='event-date'>${each.date}</div>
-            <div class='event-title'>${each.title}</div>
-            <div class='event-description'>${description}</div>
-            <div class='event-contributors'>${contributors}</div>
-            </div>` + elementsList;
+        each.contributors.map(contributor => { contributors += `<div class='album-contributor'><b class='contributor-role'>${contributor.jobDone}</b>: <span class='contributor-name'>${contributor.name}</span></div>`; });
+        document.getElementById(each.id).innerHTML =
+            `<div class='album-title'>${each.title}</div>
+            <div class='album-date'>${each.date}</div>
+            <div class='album-description'>${description}</div>
+            <div class='album-contributors'>${contributors}</div>`;
     });
-    document.getElementById('albums-container').innerHTML = elementsList;
 }
 
 

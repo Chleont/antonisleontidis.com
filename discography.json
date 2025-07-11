@@ -1,6 +1,7 @@
 {
     "el": [
         {
+            "id": "kryfo",
             "title": "Κρυφό",
             "date": "2021",
             "description": [
@@ -44,9 +45,11 @@
                     "jobDone": "Παραγωγή",
                     "name": "Αντώνης Λεοντίδης"
                 }
-            ]
+            ],
+            "images": []
         },
         {
+            "id": "asprougas",
             "title": "Άσπρουγας",
             "date": "2024",
             "description": [
@@ -87,9 +90,15 @@
                     "jobDone": "Παραγωγή",
                     "name": "Αντώνης Λεοντίδης"
                 }
+            ],
+            "images": [
+                "asprougas.jpg",
+                "asprougas-1.jpg",
+                "asprougas-2.jpg"
             ]
         },
         {
+            "id": "harder-years",
             "title": "Πιο δύσκολα χρόνια πιο ευτυχισμένα χρόνια",
             "date": "2017",
             "description": [
@@ -116,9 +125,11 @@
                     "jobDone": "Ηχογράφηση, μίξη",
                     "name": "Τέλης Αριστοτέλης"
                 }
-            ]
+            ],
+            "images": []
         },
         {
+            "id": "threshold-of-memory",
             "title": "Το κατώφλι της μνήμης",
             "date": "2018",
             "description": [
@@ -149,9 +160,11 @@
                     "jobDone": "Ηχογράφηση, μίξη",
                     "name": "Τέλης Αριστοτέλης"
                 }
-            ]
+            ],
+            "images": []
         },
         {
+            "id": "daniel",
             "title": "Daniel a French ceramist in Crete",
             "date": "2023",
             "description": [
@@ -170,9 +183,11 @@
                     "jobDone": "Κρουστά",
                     "name": "Marijia Katsouna"
                 }
-            ]
+            ],
+            "images": []
         },
         {
+            "id": "la-route-de-l-argile",
             "title": "La Route de l’argile",
             "date": "2025",
             "description": [
@@ -207,11 +222,13 @@
                     "jobDone": "Ηχογράφηση, μίξη, mastering",
                     "name": "Βαγγέλης Αποστόλου"
                 }
-            ]
+            ],
+            "images": []
         }
     ],
     "en": [
         {
+            "id": "kryfo",
             "title": "Kryfo",
             "date": "2021",
             "description": [
@@ -255,9 +272,11 @@
                     "jobDone": "Production",
                     "name": "Antonis Leontidis"
                 }
-            ]
+            ],
+            "images": []
         },
         {
+            "id": "asprougas",
             "title": "Asprougas",
             "date": "2024",
             "description": [
@@ -298,9 +317,15 @@
                     "jobDone": "Production",
                     "name": "Antonis Leontidis"
                 }
+            ],
+            "images": [
+                "asprougas.jpg",
+                "asprougas-1.jpg",
+                "asprougas-2.jpg"
             ]
         },
         {
+            "id": "harder-years",
             "title": "Harder Years Happier Years",
             "date": "2017",
             "description": [
@@ -327,9 +352,11 @@
                     "jobDone": "Recording, mixing",
                     "name": "Telis Aristotelis"
                 }
-            ]
+            ],
+            "images": []
         },
         {
+            "id": "threshold-of-memory",
             "title": "The Threshold of Memory",
             "date": "2018",
             "description": [
@@ -360,9 +387,11 @@
                     "jobDone": "Recording, mixing",
                     "name": "Telis Aristotelis"
                 }
-            ]
+            ],
+            "images": []
         },
         {
+            "id": "daniel",
             "title": "Daniel a French ceramist in Crete",
             "date": "2023",
             "description": [
@@ -381,9 +410,11 @@
                     "jobDone": "Percussion",
                     "name": "Marijia Katsouna"
                 }
-            ]
+            ],
+            "images": []
         },
         {
+            "id": "la-route-de-l-argile",
             "title": "La Route de l’argile",
             "date": "2025",
             "description": [
@@ -418,11 +449,13 @@
                     "jobDone": "Recording, mixing, mastering",
                     "name": "Vangelis Apostolou"
                 }
-            ]
+            ],
+            "images": []
         }
     ],
     "fr": [
         {
+            "id": "kryfo",
             "title": "Kryfo",
             "date": "2021",
             "description": [
@@ -466,9 +499,11 @@
                     "jobDone": "Production",
                     "name": "Antonis Leontidis"
                 }
-            ]
+            ],
+            "images": []
         },
         {
+            "id": "asprougas",
             "title": "Asprougas",
             "date": "2024",
             "description": [
@@ -509,9 +544,15 @@
                     "jobDone": "Production",
                     "name": "Antonis Leontidis"
                 }
+            ],
+            "images": [
+                "asprougas.jpg",
+                "asprougas-1.jpg",
+                "asprougas-2.jpg"
             ]
         },
         {
+            "id": "harder-years",
             "title": "Des années plus dures, des années plus heureuses",
             "date": "2017",
             "description": [
@@ -538,9 +579,11 @@
                     "jobDone": "Enregistrement, mixage",
                     "name": "Telis Aristotelis"
                 }
-            ]
+            ],
+            "images": []
         },
         {
+            "id": "threshold-of-memory",
             "title": "Le seuil de la mémoire",
             "date": "2018",
             "description": [
@@ -571,9 +614,11 @@
                     "jobDone": "Enregistrement, mixage",
                     "name": "Telis Aristotelis"
                 }
-            ]
+            ],
+            "images": []
         },
         {
+            "id": "daniel",
             "title": "Daniel, un céramiste français en Crète",
             "date": "2023",
             "description": [
@@ -592,9 +637,11 @@
                     "jobDone": "Percussions",
                     "name": "Marijia Katsouna"
                 }
-            ]
+            ],
+            "images": []
         },
         {
+            "id": "la-route-de-l-argile",
             "title": "La Route de l’argile",
             "date": "2025",
             "description": [
@@ -629,7 +676,8 @@
                     "jobDone": "Enregistrement, mixage, mastering",
                     "name": "Vangelis Apostolou"
                 }
-            ]
+            ],
+            "images": []
         }
     ]
 }

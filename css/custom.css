@@ -516,13 +516,13 @@ h2 {
         word-break: break-all;
     }
 
-    .section-idiorhythmo .carousel-container {
-        width: 100%;
-    }
-
     .section-idiorhythmo .text-section {
         width: 100% !important;
         text-align: justify !important;
+    }
+
+    .section-idiorhythmo .carousel-container {
+        width: 100%;
     }
 
     .section-idiorhythmo .owl-carousel,

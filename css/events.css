@@ -15,13 +15,6 @@
     overflow-y: hidden;
 }
 
-
-.events-page .section-title {
-    text-align: left;
-    color: var(--primary);
-}
-
-
 .events-page h2 {
     display: flex;
     flex-direction: column;
@@ -71,6 +64,8 @@
 }
 
 .events-page .section-title {
+    text-align: left;
+    color: var(--primary);
     height: 7em
 }
 

@@ -1,0 +1,136 @@
+.discography-page {
+    display: flex !important;
+    flex-direction: column;
+    max-height: calc(100%-72px);
+    height: calc(100%-72px);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3em;
+    color: var(--primary) !important;
+    background-color: var(--bg);
+    overflow-y: hidden;
+}
+
+.discography-page .section-title {
+    text-align: left;
+    height: 7em;
+}
+
+.discography-page h2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: .8em;
+    height: fit-content;
+}
+
+.discography-page .album-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5em;
+    padding: 3em 5% 1em 5%;
+}
+
+
+.discography-page .album-title {
+    font-weight: 700;
+    font-size: 20px
+}
+
+.discography-page .carousel-container {
+    width: 34%;
+    margin: 0 auto;
+}
+
+.discography-page .album-info {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.discography-page .album-date {
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.discography-page .album-contributors {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: center;
+}
+
+
+.discography-page .owl-nav {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.discography-page .owl-next {
+    margin: 0 1em 0 auto;
+}
+
+.discography-page .owl-prev {
+    margin: 0 auto 0 1em;
+}
+
+.discography-page .owl-prev span::after,
+.discography-page .owl-next span::after {
+    background-color: var(--primary);
+    opacity: 0.4;
+}
+
+.discography-page .owl-prev span::before,
+.discography-page .owl-next span::before {
+    color: var(--bg);
+}
+
+.discography-page .owl-prev:hover span::after,
+.discography-page .owl-next:hover span::after {
+    opacity: 1;
+}
+
+
+@media (min-width: 1025px) {
+    .discography-page .album-container:nth-child(even) .carousel-container {
+        order: 2;
+    }
+
+    .discography-page .album-container:nth-child(even) .album-info {
+        text-align: right;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .discography-page {
+        padding-top: 1em !important;
+    }
+
+    .discography-page .section-title {
+        word-break: break-all;
+        text-align: left;
+    }
+
+    .discography-page .album-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 3em 0;
+    }
+
+    .discography-page .carousel-container {
+        width: 100%;
+    }
+
+    .discography-page .album-info {
+        width: 100%;
+        margin: 0 0;
+    }
+
+}
