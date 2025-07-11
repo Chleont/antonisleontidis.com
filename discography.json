@@ -45,8 +45,7 @@
                     "jobDone": "Παραγωγή",
                     "name": "Αντώνης Λεοντίδης"
                 }
-            ],
-            "images": []
+            ]
         },
         {
             "id": "asprougas",
@@ -90,11 +89,6 @@
                     "jobDone": "Παραγωγή",
                     "name": "Αντώνης Λεοντίδης"
                 }
-            ],
-            "images": [
-                "asprougas.jpg",
-                "asprougas-1.jpg",
-                "asprougas-2.jpg"
             ]
         },
         {
@@ -125,8 +119,7 @@
                     "jobDone": "Ηχογράφηση, μίξη",
                     "name": "Τέλης Αριστοτέλης"
                 }
-            ],
-            "images": []
+            ]
         },
         {
             "id": "threshold-of-memory",
@@ -160,8 +153,7 @@
                     "jobDone": "Ηχογράφηση, μίξη",
                     "name": "Τέλης Αριστοτέλης"
                 }
-            ],
-            "images": []
+            ]
         },
         {
             "id": "daniel",
@@ -183,8 +175,7 @@
                     "jobDone": "Κρουστά",
                     "name": "Marijia Katsouna"
                 }
-            ],
-            "images": []
+            ]
         },
         {
             "id": "la-route-de-l-argile",
@@ -222,8 +213,37 @@
                     "jobDone": "Ηχογράφηση, μίξη, mastering",
                     "name": "Βαγγέλης Αποστόλου"
                 }
-            ],
-            "images": []
+            ]
+        },
+        {
+            "id": "astrogono",
+            "title": "Αστρογόνο",
+            "date": "2017",
+            "description": [],
+            "contributors": [],
+            "tracks": [
+                {
+                    "title": "Αδράνεια",
+                    "link": "https://www.youtube.com/watch?v=puRsNsjN5zY"
+                }
+            ]
+        },
+        {
+            "id": "soufiko",
+            "title": "Σουφικό",
+            "date": "2021",
+            "description": [],
+            "contributors": [],
+            "tracks": [
+                {
+                    "title": "Ευχή",
+                    "link": "https://www.youtube.com/watch?v=8ls-PBFLiJs"
+                },
+                {
+                    "title": "Κουτσομπόλα",
+                    "link": " https://www.youtube.com/watch?v=jskJgCa_y2Q"
+                }
+            ]
         }
     ],
     "en": [
@@ -272,15 +292,14 @@
                     "jobDone": "Production",
                     "name": "Antonis Leontidis"
                 }
-            ],
-            "images": []
+            ]
         },
         {
             "id": "asprougas",
             "title": "Asprougas",
             "date": "2024",
             "description": [
-                "The album 'Asprougas' by Antonis Leontidis draws inspiration from images of the land, expressed through patterns and tones reflecting a broader world, the global sensibility of modern people.",
+                "The album 'Asprougas' by Antonis Leontidis draws inspiration from  of the land, expressed through patterns and tones reflecting a broader world, the global sensibility of modern people.",
                 "It also explores how an instrument like the lyra can move through various phrases and variations while maintaining its simplicity and immediacy, enabling a broader musical dialogue.",
                 "The album was recorded in May 2024 at Vinyloff Records studio in Burgundy, France."
             ],
@@ -317,11 +336,6 @@
                     "jobDone": "Production",
                     "name": "Antonis Leontidis"
                 }
-            ],
-            "images": [
-                "asprougas.jpg",
-                "asprougas-1.jpg",
-                "asprougas-2.jpg"
             ]
         },
         {
@@ -352,8 +366,7 @@
                     "jobDone": "Recording, mixing",
                     "name": "Telis Aristotelis"
                 }
-            ],
-            "images": []
+            ]
         },
         {
             "id": "threshold-of-memory",
@@ -387,8 +400,7 @@
                     "jobDone": "Recording, mixing",
                     "name": "Telis Aristotelis"
                 }
-            ],
-            "images": []
+            ]
         },
         {
             "id": "daniel",
@@ -410,8 +422,7 @@
                     "jobDone": "Percussion",
                     "name": "Marijia Katsouna"
                 }
-            ],
-            "images": []
+            ]
         },
         {
             "id": "la-route-de-l-argile",
@@ -449,8 +460,37 @@
                     "jobDone": "Recording, mixing, mastering",
                     "name": "Vangelis Apostolou"
                 }
-            ],
-            "images": []
+            ]
+        },
+        {
+            "id": "astrogono",
+            "title": "Astrogono",
+            "date": "2017",
+            "description": [],
+            "contributors": [],
+            "tracks": [
+                {
+                    "title": "Adrania",
+                    "link": "https://www.youtube.com/watch?v=puRsNsjN5zY"
+                }
+            ]
+        },
+        {
+            "id": "soufiko",
+            "title": "Soufiko",
+            "date": "2021",
+            "description": [],
+            "contributors": [],
+            "tracks": [
+                {
+                    "title": "Efxi",
+                    "link": "https://www.youtube.com/watch?v=8ls-PBFLiJs"
+                },
+                {
+                    "title": "Koutsobola",
+                    "link": "https://www.youtube.com/watch?v=jskJgCa_y2Q"
+                }
+            ]
         }
     ],
     "fr": [
@@ -499,15 +539,14 @@
                     "jobDone": "Production",
                     "name": "Antonis Leontidis"
                 }
-            ],
-            "images": []
+            ]
         },
         {
             "id": "asprougas",
             "title": "Asprougas",
             "date": "2024",
             "description": [
-                "L'album 'Asprougas' d'Antonis Leontidis s'inspire d'images du territoire exprimées à travers des motifs et des tonalités reflétant un monde plus vaste, le ressenti universel de l'homme contemporain.",
+                "L'album 'Asprougas' d'Antonis Leontidis s'inspire d' du territoire exprimées à travers des motifs et des tonalités reflétant un monde plus vaste, le ressenti universel de l'homme contemporain.",
                 "Il explore également comment un instrument comme la lyra peut évoluer à travers différentes phrases et variations tout en conservant sa simplicité et son immédiateté, permettant un dialogue musical plus large.",
                 "L'album a été enregistré en mai 2024 au studio Vinyloff Records en Bourgogne, France."
             ],
@@ -544,11 +583,6 @@
                     "jobDone": "Production",
                     "name": "Antonis Leontidis"
                 }
-            ],
-            "images": [
-                "asprougas.jpg",
-                "asprougas-1.jpg",
-                "asprougas-2.jpg"
             ]
         },
         {
@@ -579,8 +613,7 @@
                     "jobDone": "Enregistrement, mixage",
                     "name": "Telis Aristotelis"
                 }
-            ],
-            "images": []
+            ]
         },
         {
             "id": "threshold-of-memory",
@@ -614,8 +647,7 @@
                     "jobDone": "Enregistrement, mixage",
                     "name": "Telis Aristotelis"
                 }
-            ],
-            "images": []
+            ]
         },
         {
             "id": "daniel",
@@ -638,7 +670,7 @@
                     "name": "Marijia Katsouna"
                 }
             ],
-            "images": []
+            "": []
         },
         {
             "id": "la-route-de-l-argile",
@@ -676,8 +708,37 @@
                     "jobDone": "Enregistrement, mixage, mastering",
                     "name": "Vangelis Apostolou"
                 }
-            ],
-            "images": []
+            ]
+        },
+        {
+            "id": "astrogono",
+            "title": "Astrogono",
+            "date": "2017",
+            "description": [],
+            "contributors": [],
+            "tracks": [
+                {
+                    "title": "Adrania",
+                    "link": "https://www.youtube.com/watch?v=puRsNsjN5zY"
+                }
+            ]
+        },
+        {
+            "id": "soufiko",
+            "title": "Soufiko",
+            "date": "2021",
+            "description": [],
+            "contributors": [],
+            "tracks": [
+                {
+                    "title": "Efxi",
+                    "link": "https://www.youtube.com/watch?v=8ls-PBFLiJs"
+                },
+                {
+                    "title": "Koutsobola",
+                    "link": "https://www.youtube.com/watch?v=jskJgCa_y2Q"
+                }
+            ]
         }
     ]
 }

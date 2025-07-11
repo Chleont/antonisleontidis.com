@@ -61,6 +61,28 @@
     justify-content: center;
 }
 
+.discography-page .category {
+    font-size: 2em;
+    font-weight: 100;
+    margin-bottom: 1em;
+}
+
+.discography-page .album-tracks {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: center;
+}
+
+.discography-page .album-track:hover {
+    color: var(--secondary) !important;
+}
+
+.discography-page .album-track {
+    color: var(--primary) !important;
+    ;
+}
 
 .discography-page .owl-nav {
     width: 100%;
