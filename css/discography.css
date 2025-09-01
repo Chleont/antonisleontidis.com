@@ -13,7 +13,7 @@
 
 .discography-page .section-title {
     text-align: left;
-    height: 7em;
+    height: fit-content;
 }
 
 .discography-page h2 {
@@ -84,6 +84,34 @@
     ;
 }
 
+.discography-page .social-icons {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.discography-page .social-icons a {
+    background-color: var(--surface) !important;
+    color: var(--primary) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.discography-page .social-icons a:hover {
+    background-color: var(--primary) !important;
+    color: var(--bg) !important
+}
+
+.discography-page .social-icons span {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .discography-page .owl-nav {
     width: 100%;
     position: absolute;
@@ -125,6 +153,10 @@
     .discography-page .album-container:nth-child(even) .album-info {
         text-align: right;
     }
+
+    .discography-page .album-container:nth-child(even) .social-icons {
+        margin-left: auto;
+    }
 }
 
 
@@ -137,7 +169,7 @@
     .discography-page .section-title {
         word-break: break-all;
         text-align: left;
-        height: auto;
+        height: fit-content;
     }
 
     .discography-page .album-container {

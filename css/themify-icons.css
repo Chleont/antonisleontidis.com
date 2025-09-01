@@ -1210,6 +1210,7 @@
 
 .ti-youtube:before {
     content: "\e728";
+    font-size: 1.5em;
 }
 
 .ti-vimeo:before {
@@ -1294,6 +1295,7 @@
 
 .ti-instagram:before {
     content: "\e73d";
+    font-size: 1.5em;
 }
 
 .ti-google:before {
@@ -1310,6 +1312,7 @@
 
 .ti-facebook:before {
     content: "\e741";
+    font-size: 1.5em;
 }
 
 .ti-dropbox:before {

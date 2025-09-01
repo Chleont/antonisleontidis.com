@@ -988,14 +988,30 @@ h2 {
     color: var(--bg)
 }
 
+footer .social-icons {
+    display: flex;
+    flex-direction: row;
+}
+
 footer .social-icons a {
     background-color: var(--surface);
-    color: var(--primary) !important
+    color: var(--primary) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer .social-icons a:hover {
     background-color: var(--primary);
     color: var(--bg) !important
+}
+
+footer .social-icons span {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 1024px) {
