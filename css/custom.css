@@ -56,6 +56,10 @@ h2 {
     color: var(--secondary) !important;
 }
 
+.section-text {
+    cursor: default;
+}
+
 .basic-container .clickable-logo {
     height: 60px !important;
     cursor: pointer;
@@ -952,7 +956,7 @@ h2 {
     padding: 4em 0;
     gap: 4em;
     background-color: var(--bg);
-    color: var(--primary)
+    color: var(--primary);
 }
 
 .email {

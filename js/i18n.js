@@ -66,7 +66,8 @@ const translations = {
         "idiorhythmo-title-1": "Repertoire",
         "idiorhythmo-title-2": "Parallel activities of the ensemble",
         events: "events",
-        "no-upcoming": "There are no upcoming events"
+        "no-upcoming": "There are no upcoming events",
+        "under-construction": "under construction"
     },
     fr: {
         "idiorhytmo_section": "ensemble idiorhythmo",
@@ -135,7 +136,8 @@ const translations = {
         "idiorhythmo-title-1": "Répertoire",
         "idiorhythmo-title-2": "Activités parallèles de l’ensemble",
         events: "événements",
-        "no-upcoming": "Il n'y a aucun événement à venir"
+        "no-upcoming": "Il n'y a aucun événement à venir",
+        "under-construction": "en construction"
     },
     el: {
         "idiorhytmo_section": "σύνολο ιδιόρρυθμο",
@@ -155,8 +157,8 @@ const translations = {
         Events: "Εκδηλώσεις",
         Archive: "Αρχείο",
         "archive-text": "Μέσα απο τις καταγραφές των πρώτων ηχογραφήσεων της κρητικής μουσικής σε παρτιτούρα και την μελέτη των γυρισμάτων και των «ιδιαιτερωτήτων» τους για λογαριασμό του μουσικού συνόλου «Ιδιόρρυθμο» εκφράστηκε η ανάγκη για την δημιουργία ενός αρχείου που θα περιέχει επανεκτελέσεις των σκοπών αυτών καθώς και άλλες ιστορικές και μουσικές πληροφορίες και εργαλεία για την αποκωδικοποίηση τους.",
-        Upcoming: "Επερχόμενα",
-        Past: "Παλαιότερα",
+        Upcoming: "Επερχόμενες",
+        Past: "Παλαιότερες",
         Contact: "Επικοινωνία",
         Un: "Αν",
         holy_Mustache: "ιερο Μουστακι",
@@ -204,7 +206,8 @@ const translations = {
         "idiorhythmo-title-1": "Ρεπερτόριο",
         "idiorhythmo-title-2": "Παράλληλες δράσεις του συνόλου",
         events: "εκδηλώσεις",
-        "no-upcoming": "Δεν υπάρχουν επερχόμενες εκδηλώσεις"
+        "no-upcoming": "Δεν υπάρχουν επερχόμενες εκδηλώσεις",
+        "under-construction": "υπό κατασκευή"
     }
 };
 

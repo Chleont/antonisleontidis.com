@@ -19,6 +19,16 @@ function isTodayOrFuture(dateStr) {
 
 }
 
+function removeDay(dateStr) {
+    // Split the date string by "/"
+    const parts = dateStr.split("/");
+    // Check if the format is correct
+    if (parts.length !== 3) {
+        throw new Error("Invalid date format. Use DD/MM/YYYY");
+    }
+    // Return MM/YYYY
+    return `${parts[1]}/${parts[2]}`;
+}
 
 function updateEventsPage(list) {
     let upComingEventsElement = '';
@@ -27,14 +37,16 @@ function updateEventsPage(list) {
         if (isTodayOrFuture(each.date)) {
             upComingEventsElement =
                 `<div class='event-container'>
-            <div class='event-title'>${each.title}</div>
             <div class='event-date'>${each.date}</div>
+            <div class='event-location'>${each.location}</div>
+            <div class='event-title'>${each.title}</div>
             </div>` + upComingEventsElement;
         } else {
             pastEventsElement =
                 `<div class='event-container'>
+            <div class='event-date'>${removeDay(each.date)}</div>
+            <div class='event-location'>${each.location}</div>
             <div class='event-title'>${each.title}</div>
-            <div class='event-date'>${each.date}</div>
             </div>` + pastEventsElement;
         }
     });

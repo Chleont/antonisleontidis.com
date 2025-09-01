@@ -31,6 +31,7 @@
 .idiorhythmo-page .general-section {
     margin-bottom: 0.5em;
     padding: 3em 5% 1em 5%;
+    cursor: default;
 }
 
 .idiorhythmo-page .section-title {
