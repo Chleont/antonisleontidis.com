@@ -196,24 +196,29 @@
             "title": "Τριήμερο εργαστήριο λύρας – «Η σούστα στο νομό Ρεθύμνου»"
         },
         "40": {
-            "date": "01/08/2025",
+            "date": "06/08/2025",
             "location": "Μέση Ρεθύμνου (πλατεία)",
             "title": "Συναυλία «Ο Ελάχιστος Κόσμος Αφηγείται» με Sol Ligertwood, Juliette Weiss, Στέφανο Φλωρά, Χάρη Μπάκα, Uily Πειμενίδη, Shina Danesh"
         },
         "41": {
-            "date": "01/08/2025",
+            "date": "07/08/2025",
             "location": "Μουσικό Εργαστήρι Λαβύρινθος, Χουδέτσι Ηρακλείου",
             "title": "Συναυλία «Ο Ελάχιστος Κόσμος Αφηγείται» με Sol Ligertwood, Juliette Weiss, Στέφανο Φλωρά, Uily Πειμενίδη"
         },
         "42": {
-            "date": "01/08/2025",
+            "date": "11/08/2025",
             "location": "«Αρμυρίκι», Πλακιάς Ρεθύμνου",
             "title": "Με Γιώργο Ψαράκη"
         },
         "43": {
-            "date": "01/08/2025",
+            "date": "14/08/2025",
             "location": "«Το Κλειδί»",
             "title": "Γλέντι με Γιώργο Ψαράκη και Γιώργο Ζαχαριουδάκη"
+        },
+        "44": {
+            "date": "14/09/2025",
+            "location": "Αγγελιανά Μυλοποτάμου",
+            "title": "Συναυλία με το μουσικό σύνολο Ιδιόρρυθμο"
         }
     },
     "en": {
@@ -413,24 +418,29 @@
             "title": "Three-day lyra workshop – 'The Sousta in the Prefecture of Rethymno'"
         },
         "40": {
-            "date": "01/08/2025",
+            "date": "06/08/2025",
             "location": "Mesi, Rethymno (square)",
             "title": "Concert 'The Minimum World Narrates' with Sol Ligertwood, Juliette Weiss, Stefano Flora, Haris Bakas, Uily Peimenidis, Shina Danesh"
         },
         "41": {
-            "date": "01/08/2025",
+            "date": "07/08/2025",
             "location": "Labyrinth Musical Workshop, Houdetsi Heraklion",
             "title": "Concert 'The Minimum World Narrates' with Sol Ligertwood, Juliette Weiss, Stefano Flora, Uily Peimenidis"
         },
         "42": {
-            "date": "01/08/2025",
+            "date": "11/08/2025",
             "location": "‘Almyriki’, Plakias Rethymno",
             "title": "With Giorgos Psarakis"
         },
         "43": {
-            "date": "01/08/2025",
+            "date": "14/08/2025",
             "location": "‘To Kleidi’",
             "title": "Celebration with Giorgos Psarakis and Giorgos Zacharioudakis"
+        },
+        "44": {
+            "date": "14/09/2025",
+            "location": "Aggeliana Mylopotamos",
+            "title": "Concert with Idiorrhythmo ensemble"
         }
     },
     "fr": {
@@ -630,24 +640,29 @@
             "title": "Atelier lyra trois jours – 'La Sousta dans le département de Rethymno'"
         },
         "40": {
-            "date": "01/08/2025",
+            "date": "06/08/2025",
             "location": "Mesi, Rethymno (place)",
             "title": "Concert 'Le Monde Minimum Raconte' avec Sol Ligertwood, Juliette Weiss, Stefano Flora, Haris Bakas, Uily Peimenidis, Shina Danesh"
         },
         "41": {
-            "date": "01/08/2025",
+            "date": "07/08/2025",
             "location": "Labyrinth Musical Workshop, Houdetsi Heraklion",
             "title": "Concert 'Le Monde Minimum Raconte' avec Sol Ligertwood, Juliette Weiss, Stefano Flora, Uily Peimenidis"
         },
         "42": {
-            "date": "01/08/2025",
+            "date": "11/08/2025",
             "location": "‘Almyriki’, Plakias Rethymno",
             "title": "Avec Giorgos Psarakis"
         },
         "43": {
-            "date": "01/08/2025",
+            "date": "14/08/2025",
             "location": "‘To Kleidi’",
             "title": "Fête avec Giorgos Psarakis et Giorgos Zacharioudakis"
+        },
+        "44": {
+            "date": "14/09/2025",
+            "location": "Aggeliana Mylopotamos",
+            "title": "Concert avec le groupe Idiorrhythmo"
         }
     }
 }

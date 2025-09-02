@@ -24,15 +24,24 @@ function updateEventsPage(list) {
     let element = '';
     list.map(each => {
         if (isTodayOrFuture(each.date)) {
-            element +=
+            element =
                 `<div class='event-container'>
             <div class='event-title'>${each.title}</div>
             <div class='event-date'>${each.date}</div>
-            </div>`;
+            </div>`+ element;
         }
     });
-    console.log(element);
     if (element.length > 0) {
+        document.getElementById('events-container').innerHTML = element;
+    } else {
+        let shortList = list.slice(list.length - 3);
+        shortList.map(each => {
+            element =
+                `<div class='event-container'>
+                <div class='event-title'>${each.title}</div>
+                <div class='event-date'>${each.date}</div>
+                </div>`+ element;
+        });
         document.getElementById('events-container').innerHTML = element;
     }
 }

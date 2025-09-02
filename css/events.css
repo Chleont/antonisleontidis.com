@@ -177,4 +177,12 @@
         display: flex;
     }
 
+    .events-page .event-location {
+        font-weight: 300;
+    }
+
+    .events-page .event-title {
+        font-size: 1em;
+    }
+
 }
