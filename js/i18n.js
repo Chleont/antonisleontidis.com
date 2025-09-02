@@ -247,4 +247,5 @@ document.getElementById("language-switcher-mobile-el").addEventListener("click",
 });
 
 // Set default language
-translate("en");
+translate(navigator.language);
+// translate("en");
