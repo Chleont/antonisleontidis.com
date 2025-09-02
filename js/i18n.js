@@ -247,5 +247,11 @@ document.getElementById("language-switcher-mobile-el").addEventListener("click",
 });
 
 // Set default language
-translate(navigator.language);
-// translate("en");
+let userLang = navigator.language || navigator.userLanguage;
+if (userLang.startsWith('fr')) {
+    translate('fr');
+} else if (userLang.startsWith('el')) {
+    translate('el');
+} else {
+    translate('en');
+};
