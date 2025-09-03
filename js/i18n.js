@@ -68,7 +68,8 @@ const translations = {
         "idiorrhythmo-title-2": "Parallel activities of the ensemble",
         events: "events",
         "no-upcoming": "There are no upcoming events",
-        "under-construction": "under construction"
+        "under-construction": "under construction",
+        Gallery: "Gallery"
     },
     fr: {
         "idiorhytmo_section": "ensemble idiorrhythmo",
@@ -139,7 +140,8 @@ const translations = {
         "idiorrhythmo-title-2": "Activités parallèles de l’ensemble",
         events: "événements",
         "no-upcoming": "Il n'y a aucun événement à venir",
-        "under-construction": "en construction"
+        "under-construction": "en construction",
+        Gallery: "Galerie"
     },
     el: {
         "idiorhytmo_section": "σύνολο ιδιόρρυθμο",
@@ -210,7 +212,8 @@ const translations = {
         "idiorrhythmo-title-2": "Παράλληλες δράσεις του συνόλου",
         events: "εκδηλώσεις",
         "no-upcoming": "Δεν υπάρχουν επερχόμενες εκδηλώσεις",
-        "under-construction": "υπό κατασκευή"
+        "under-construction": "υπό κατασκευή",
+        Gallery: "Συλλογή"
     }
 };
 

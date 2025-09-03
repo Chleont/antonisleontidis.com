@@ -39,9 +39,33 @@
     font-size: 20px
 }
 
-.idiorrhythmo-page .carousel-container {
+.idiorrhythmo-page .section-container .carousel-container {
     width: 34%;
     margin: 0 auto;
+}
+
+.idiorrhythmo-page .gallery-section-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.idiorrhythmo-page .gallery-section {
+    width: 100%;
+    max-width: 120vh;
+    height: fit-content;
+}
+
+.idiorrhythmo-page .gallery-section .owl-carousel {
+    width: 100%;
+    height: fit-content;
+
+}
+
+.idiorrhythmo-page .gallery-section .owl-carousel img {
+    height: auto;
+    width: 100%;
 }
 
 .idiorrhythmo-page .section-info {

@@ -1993,4 +1993,7 @@
 
 })(jQuery);
 
-
+// // remove # from url on scroll
+// window.addEventListener("scroll", (event) => {
+//     history.pushState("", document.title, window.location.pathname);
+// });

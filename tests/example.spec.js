@@ -2,18 +2,18 @@
 import { test, expect } from '@playwright/test';
 
 test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+    await page.goto('http://127.0.0.1:5501/index.html');
 
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
+    // Expect a title "to contain" a substring.
+    await expect(page).toHaveTitle(/Antonis Leontidis/);
 });
 
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+test('get contact button', async ({ page }) => {
+    await page.goto('http://127.0.0.1:5501/index.html');
 
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
+    // Clicks the contact button.
+    await page.getByRole('navigation').getByTestId('Contact').click();
 
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+    // Expects page to have a footer element.
+    await expect(page.getByTestId('footer')).toBeVisible();
 });

@@ -79,6 +79,7 @@
     --surface: #fff;
     --primary: #101010;
     --bg: white;
+    --footer-bg: #dddddd;
     --secondary: rgb(127, 127, 127);
 }
 
@@ -88,6 +89,7 @@
         --surface: #000;
         --primary: white;
         --bg: #101010;
+        --footer-bg: #252525;
         --secondary: rgb(175, 175, 175);
     }
 }

@@ -829,7 +829,7 @@ h2 {
     justify-content: center;
     padding: 4em 0;
     gap: 4em;
-    background-color: var(--bg);
+    background-color: var(--footer-bg);
     color: var(--primary);
 }
 
@@ -865,10 +865,11 @@ h2 {
 footer .social-icons {
     display: flex;
     flex-direction: row;
+    gap: .5em;
 }
 
 footer .social-icons a {
-    background-color: var(--surface);
+    background-color: transparent;
     color: var(--primary) !important;
     display: flex;
     align-items: center;
@@ -892,6 +893,6 @@ footer .social-icons span {
     .footer {
         flex-direction: column;
         gap: 1em;
-        padding-top: 0;
+        padding-top: 1em;
     }
 }
