@@ -47,9 +47,22 @@ function updateEventsPage(list) {
 }
 
 
+// Set default language
+let userLangEvents = sessionStorage.getItem('preferredLanguage');
+if (!userLangEvents) {
+    userLangEvents = navigator.language || navigator.userLangEventsuage;
+}
+if (userLangEvents.startsWith('fr')) {
+    userLangEvents = 'fr';
+} else if (userLangEvents.startsWith('el')) {
+    userLangEvents = 'el';
+} else {
+    userLangEvents = 'en';
+};
+
 fetch('../events.json').then(response => response.json())
     .then(data => {
-        updateEventsPage(Object.values(data['en']));
+        updateEventsPage(Object.values(data[userLangEvents]));
         window.addEventListener('localeChange', e => {
             updateEventsPage(Object.values(data[e.detail]));
         });

@@ -30,9 +30,22 @@ function updateDiscographyPage(list) {
     });
 }
 
+// Set default language
+let userLangDiscography = sessionStorage.getItem('preferredLanguage');
+if (!userLangDiscography) {
+    userLangDiscography = navigator.language || navigator.userLangDiscographyuage;
+}
+if (userLangDiscography.startsWith('fr')) {
+    userLangDiscography = 'fr';
+} else if (userLangDiscography.startsWith('el')) {
+    userLangDiscography = 'el';
+} else {
+    userLangDiscography = 'en';
+};
+
 fetch('../discography.json').then(response => response.json())
     .then(data => {
-        updateDiscographyPage(Object.values(data['en']));
+        updateDiscographyPage(Object.values(data[userLangDiscography]));
         window.addEventListener('localeChange', e => {
             updateDiscographyPage(Object.values(data[e.detail]));
         });

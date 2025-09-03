@@ -56,13 +56,25 @@ function updateEventsPage(list) {
     document.getElementById('past-events-container').innerHTML = pastEventsElement;
 }
 
+// Set default language
+let userLangEventsPage = sessionStorage.getItem('preferredLanguage');
+if (!userLangEventsPage) {
+    userLangEventsPage = navigator.language || navigator.userLangEventsPageuage;
+}
+if (userLangEventsPage.startsWith('fr')) {
+    userLangEventsPage = 'fr';
+} else if (userLangEventsPage.startsWith('el')) {
+    userLangEventsPage = 'el';
+} else {
+    userLangEventsPage = 'en';
+};
+
 
 fetch('../events.json').then(response => response.json())
     .then(data => {
-        updateEventsPage(Object.values(data['en']));
+        updateEventsPage(Object.values(data[userLangEventsPage]));
         window.addEventListener('localeChange', e => {
             updateEventsPage(Object.values(data[e.detail]));
         });
     });
-
 

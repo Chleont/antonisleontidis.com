@@ -139,7 +139,7 @@ h2 {
 .more-label {
     height: 60px;
     width: fit-content;
-    padding: 14px 0 0px 5px;
+    padding: 14px 0 0px 10px;
     font-size: 35px;
     font-weight: 700;
     color: var(--bg);
@@ -433,7 +433,7 @@ h2 {
 
 /* Idiorhytmo */
 
-.section-idiorhythmo {
+.section-idiorrhythmo {
     display: flex !important;
     flex-direction: column;
     height: fit-content;
@@ -446,12 +446,12 @@ h2 {
 }
 
 
-.section-idiorhythmo .section-title {
+.section-idiorrhythmo .section-title {
     color: var(--primary);
 }
 
 
-.section-idiorhythmo h2 {
+.section-idiorrhythmo h2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -459,19 +459,19 @@ h2 {
     height: fit-content;
 }
 
-.section-idiorhythmo .section-text {
+.section-idiorrhythmo .section-text {
     margin-bottom: 2em;
 }
 
-.section-idiorhythmo .section-text a {
+.section-idiorrhythmo .section-text a {
     color: var(--primary) !important;
 }
 
-.section-idiorhythmo .section-text a:hover {
+.section-idiorrhythmo .section-text a:hover {
     text-decoration: underline;
 }
 
-.section-idiorhythmo .owl-nav {
+.section-idiorrhythmo .owl-nav {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -480,27 +480,27 @@ h2 {
     flex-direction: row;
 }
 
-.section-idiorhythmo .owl-next {
+.section-idiorrhythmo .owl-next {
     margin: 0 1em 0 auto;
 }
 
-.section-idiorhythmo .owl-prev {
+.section-idiorrhythmo .owl-prev {
     margin: 0 auto 0 1em;
 }
 
-.section-idiorhythmo .owl-prev span::after,
-.section-idiorhythmo .owl-next span::after {
+.section-idiorrhythmo .owl-prev span::after,
+.section-idiorrhythmo .owl-next span::after {
     background-color: var(--primary);
     opacity: 0.4;
 }
 
-.section-idiorhythmo .owl-prev span::before,
-.section-idiorhythmo .owl-next span::before {
+.section-idiorrhythmo .owl-prev span::before,
+.section-idiorrhythmo .owl-next span::before {
     color: var(--bg);
 }
 
-.section-idiorhythmo .owl-prev:hover span::after,
-.section-idiorhythmo .owl-next:hover span::after {
+.section-idiorrhythmo .owl-prev:hover span::after,
+.section-idiorrhythmo .owl-next:hover span::after {
     opacity: 1;
 }
 
@@ -525,26 +525,26 @@ h2 {
 
 @media (max-width: 1024px) {
 
-    .section-idiorhythmo .section-title {
+    .section-idiorrhythmo .section-title {
         word-break: break-all;
     }
 
-    .section-idiorhythmo .text-section {
+    .section-idiorrhythmo .text-section {
         width: 100% !important;
         text-align: justify !important;
     }
 
-    .section-idiorhythmo .carousel-container {
+    .section-idiorrhythmo .carousel-container {
         width: 100%;
     }
 
-    .section-idiorhythmo .owl-carousel,
-    .section-idiorhythmo .button-row,
-    .section-idiorhythmo .button-to {
+    .section-idiorrhythmo .owl-carousel,
+    .section-idiorrhythmo .button-row,
+    .section-idiorrhythmo .button-to {
         padding: 0;
     }
 
-    .section-idiorhythmo .button-to {
+    .section-idiorrhythmo .button-to {
         margin-left: auto;
     }
 
