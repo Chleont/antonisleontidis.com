@@ -214,36 +214,6 @@
                     "name": "Βαγγέλης Αποστόλου"
                 }
             ]
-        },
-        {
-            "id": "astrogono",
-            "title": "Αστρογόνο",
-            "date": "2017",
-            "description": [],
-            "contributors": [],
-            "tracks": [
-                {
-                    "title": "Αδράνεια",
-                    "link": "https://www.youtube.com/watch?v=puRsNsjN5zY"
-                }
-            ]
-        },
-        {
-            "id": "soufiko",
-            "title": "Σουφικό",
-            "date": "2021",
-            "description": [],
-            "contributors": [],
-            "tracks": [
-                {
-                    "title": "Ευχή",
-                    "link": "https://www.youtube.com/watch?v=8ls-PBFLiJs"
-                },
-                {
-                    "title": "Κουτσομπόλα",
-                    "link": " https://www.youtube.com/watch?v=jskJgCa_y2Q"
-                }
-            ]
         }
     ],
     "en": [
@@ -459,36 +429,6 @@
                 {
                     "jobDone": "Recording, mixing, mastering",
                     "name": "Vangelis Apostolou"
-                }
-            ]
-        },
-        {
-            "id": "astrogono",
-            "title": "Astrogono",
-            "date": "2017",
-            "description": [],
-            "contributors": [],
-            "tracks": [
-                {
-                    "title": "Adrania",
-                    "link": "https://www.youtube.com/watch?v=puRsNsjN5zY"
-                }
-            ]
-        },
-        {
-            "id": "soufiko",
-            "title": "Soufiko",
-            "date": "2021",
-            "description": [],
-            "contributors": [],
-            "tracks": [
-                {
-                    "title": "Efxi",
-                    "link": "https://www.youtube.com/watch?v=8ls-PBFLiJs"
-                },
-                {
-                    "title": "Koutsobola",
-                    "link": "https://www.youtube.com/watch?v=jskJgCa_y2Q"
                 }
             ]
         }
@@ -707,36 +647,6 @@
                 {
                     "jobDone": "Enregistrement, mixage, mastering",
                     "name": "Vangelis Apostolou"
-                }
-            ]
-        },
-        {
-            "id": "astrogono",
-            "title": "Astrogono",
-            "date": "2017",
-            "description": [],
-            "contributors": [],
-            "tracks": [
-                {
-                    "title": "Adrania",
-                    "link": "https://www.youtube.com/watch?v=puRsNsjN5zY"
-                }
-            ]
-        },
-        {
-            "id": "soufiko",
-            "title": "Soufiko",
-            "date": "2021",
-            "description": [],
-            "contributors": [],
-            "tracks": [
-                {
-                    "title": "Efxi",
-                    "link": "https://www.youtube.com/watch?v=8ls-PBFLiJs"
-                },
-                {
-                    "title": "Koutsobola",
-                    "link": "https://www.youtube.com/watch?v=jskJgCa_y2Q"
                 }
             ]
         }
