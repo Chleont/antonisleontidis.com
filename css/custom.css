@@ -123,9 +123,9 @@ h2 {
 .arrow-right {
     width: 0;
     height: 0;
-    border-top: 30px solid transparent;
-    border-left: 30px solid var(--primary);
-    border-bottom: 30px solid transparent;
+    border-top: 2em solid transparent;
+    border-left: 2em solid var(--primary);
+    border-bottom: 2em solid transparent;
 }
 
 .button-to {
@@ -137,10 +137,10 @@ h2 {
 }
 
 .more-label {
-    height: 60px;
+    height: 2em;
     width: fit-content;
-    padding: 14px 0 0px 10px;
-    font-size: 35px;
+    padding: .5em 0 0px 10px;
+    font-size: 2em;
     font-weight: 700;
     color: var(--bg);
     background-color: var(--primary);
@@ -193,6 +193,17 @@ h2 {
         word-break: break-all !important;
         max-width: calc(100%-90px) !important;
         padding-left: 0;
+    }
+
+    .more-label {
+        font-size: 1em;
+        height: 3em;
+    }
+
+    .arrow-right {
+        border-top: 1.5em solid transparent;
+        border-left: 1.5em solid var(--primary);
+        border-bottom: 1.5em solid transparent;
     }
 }
 
