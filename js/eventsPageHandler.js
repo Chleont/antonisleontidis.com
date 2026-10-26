@@ -70,11 +70,34 @@ if (userLangEventsPage.startsWith('fr')) {
 };
 
 
-fetch('../events.json').then(response => response.json())
+fetch('../events.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`Failed to load events: ${response.status}`);
+        }
+        return response.json();
+    })
     .then(data => {
-        updateEventsPage(Object.values(data[userLangEventsPage]));
-        window.addEventListener('localeChange', e => {
-            updateEventsPage(Object.values(data[e.detail]));
-        });
-    });
 
+        function getLocalizedEvents(language) {
+            const lang = ['el', 'en', 'fr'].includes(language) ? language : 'en';
+
+            return data.map(event => ({
+                id: event.id,
+                date: event.date,
+                title: event[lang]?.title || event.en?.title || '',
+                location: event[lang]?.location || event.en?.location || ''
+            }));
+        }
+
+        // Initial render
+        updateEventsPage(getLocalizedEvents(userLangEventsPage));
+
+        // Update events when language changes
+        window.addEventListener('localeChange', e => {
+            updateEventsPage(getLocalizedEvents(e.detail));
+        });
+    })
+    .catch(error => {
+        console.error('Error loading events:', error);
+    });
