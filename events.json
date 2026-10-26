@@ -1,668 +1,707 @@
-{
+
+[
+  {
+    "id": "1",
+    "date": "01/09/2016",
     "el": {
-        "1": {
-            "date": "01/09/2016",
-            "location": "Houdetsi Festival, Κρήτη",
-            "title": "Με Γιώργο Μαυρομανωλάκη"
-        },
-        "2": {
-            "date": "01/09/2016",
-            "location": "Koinono Festival, Τίνος",
-            "title": "Με Γιώργο Μαυρομανωλάκη"
-        },
-        "3": {
-            "date": "01/10/2019",
-            "location": "Italian tour – Treviso – Venetia – Revine Lago – Firenze",
-            "title": "Με Γιάννη Λιναρδάκη, Bernardo Isola, Χαράλαμπο Λεοντίδη"
-        },
-        "4": {
-            "date": "01/05/2022",
-            "location": "Netherlands and Belgium – Amsterdam – Rotterdam – Amversa",
-            "title": "Με Χάρη Λαουρέισεν"
-        },
-        "5": {
-            "date": "01/01/2023",
-            "location": "Spain – Madrid – Barcelona – Saragossa",
-            "title": "Με Χάρη Λαουρέισεν"
-        },
-        "6": {
-            "date": "01/03/2023",
-            "location": "France, Belgium, Netherlands – Paris – Leuven – Brussels – Amversa – Rotterdam",
-            "title": "Με Χάρη Λαουρέισεν"
-        },
-        "7": {
-            "date": "01/05/2023",
-            "location": "Γλέντι Μαργαρίτες Μυλοποτάμου",
-            "title": "6 χρόνια Ρόδακας με Δήμητρη Κοκολάκη και Bernardo Isola"
-        },
-        "8": {
-            "date": "01/08/2023",
-            "location": "Γλέντι Αγία Παρασκευή, Ιεράπετρα",
-            "title": "Με Στέλιο Μυλωνάκη"
-        },
-        "9": {
-            "date": "01/08/2023",
-            "location": "Ιδαίο Άντρο, Ανώγεια",
-            "title": "«Όλη η Ελλάδα ένας Πολιτισμός» με Bernardo Isola"
-        },
-        "10": {
-            "date": "01/11/2023",
-            "location": "Παπούρα, Αθήνα",
-            "title": "Εργαστήριο κρητικής μουσικής – ρεπερτόριο Αντώνη Παππαδάκη (Καρεκλά)"
-        },
-        "11": {
-            "date": "01/11/2023",
-            "location": "Άλικο, Αθήνα",
-            "title": "Συναυλία με Χάρη Λαουρέισεν και Αντρέα Αρβανίτη"
-        },
-        "12": {
-            "date": "01/01/2024",
-            "location": "Παπούρα, Αθήνα",
-            "title": "Εργαστήριο κρητικής μουσικής – ρεπερτόριο Νικόλαου Κατσουλάκη (Κουφιανού)"
-        },
-        "13": {
-            "date": "01/01/2024",
-            "location": "Άλικο, Αθήνα",
-            "title": "Συναυλία με Στέλιο Φιλιππάκη"
-        },
-        "14": {
-            "date": "01/01/2024",
-            "location": "Alkinois, Αθήνα",
-            "title": "Συναυλία με Bernardo Isola"
-        },
-        "15": {
-            "date": "01/04/2024",
-            "location": "Υπόγα, Ηράκλειο Κρήτης",
-            "title": "Συναυλία με Ευγενία Τόλη"
-        },
-        "16": {
-            "date": "01/05/2024",
-            "location": "Paris, France",
-            "title": "Με Juliette Weiss, Στέφανο Φλωρά και Sol Ligertwood"
-        },
-        "17": {
-            "date": "01/06/2024",
-            "location": "Μαργαρίτες Μυλοποτάμου",
-            "title": "Συναυλία με το μουσικό σύνολο Ιδιόρρυθμο"
-        },
-        "18": {
-            "date": "01/06/2024",
-            "location": "Φεστιβάλ «Μουσικά Αντισώματα», Καστέλι Κισσάμου",
-            "title": "Με Ευγενία Τόλη, Στέλιο Φιλιππάκη"
-        },
-        "19": {
-            "date": "01/06/2024",
-            "location": "Φεστιβάλ «Αναφωνώ», Ανάφη",
-            "title": "Συναυλία με το μουσικό σύνολο Ιδιόρρυθμο"
-        },
-        "20": {
-            "date": "01/06/2024",
-            "location": "Πλατεία Αγίου Νικολάου, Ανάφη",
-            "title": "Με Bernardo Isola και Χάρη Μπάκα"
-        },
-        "21": {
-            "date": "01/06/2024",
-            "location": "Γλέντι «Εσμιγιά», Ντουλιανά Αποκορώνου",
-            "title": "Με Στέλιο Φιλιππάκη και Bernardo Isola"
-        },
-        "22": {
-            "date": "01/06/2024",
-            "location": "Γλέντι «Το Κλειδί», Καταλαγάρι Ηρακλείου",
-            "title": "Με Χάρη Μπάκα και Bernardo Isola"
-        },
-        "23": {
-            "date": "01/07/2024",
-            "location": "«Rietzer Berg», Γερμανία",
-            "title": "Με Bernardo Isola και Δημήτρη Κοκολάκη"
-        },
-        "24": {
-            "date": "01/07/2024",
-            "location": "Πλατεία Κατωχωριάς, Μαργαρίτες Μυλοποτάμου",
-            "title": "Γλέντι με Στέλιο Φιλιππάκη, Bernardo Isola, Χάρη Μπάκα (Ρόδακας)"
-        },
-        "25": {
-            "date": "01/08/2024",
-            "location": "«Αρμυρίκι», Πλακιάς",
-            "title": "Με Bernardo Isola και Δημήτρη Κοκολάκη"
-        },
-        "26": {
-            "date": "01/08/2024",
-            "location": "«Βήσαλο», Ασκύφου Σφακιά",
-            "title": "Με Δημήτρη Κοκολάκη και Bernardo Isola"
-        },
-        "27": {
-            "date": "01/08/2024",
-            "location": "Γλέντι «Αγία Παρασκευή», Χριστός Ιεράπετρας",
-            "title": "Με Bernardo Isola και Δημήτρη Κοκολάκη"
-        },
-        "28": {
-            "date": "01/08/2024",
-            "location": "Πανηγύρι, Μέση Ρεθύμνου",
-            "title": "Με Γιώργο Ζαχαριουδάκη, Στέλιο Φιλιππάκη και Bernardo Isola"
-        },
-        "29": {
-            "date": "01/11/2024",
-            "location": "Παπούρα, Αθήνα",
-            "title": "Εργαστήριο κρητικής μουσικής – ρεπερτόριο Μιχάλη Παππαδάκη (Πλακιανού)"
-        },
-        "30": {
-            "date": "01/11/2024",
-            "location": "Alkinois, Αθήνα",
-            "title": "Συναυλία με Κυριάκο Μανιά"
-        },
-        "31": {
-            "date": "01/12/2024",
-            "location": "Θέατρο Αργώ, Αθήνα",
-            "title": "Παρουσίαση δίσκου «Άσπρουγας» με Sol Ligertwood, Juliette Weiss, Στέφανο Φλωρά"
-        },
-        "32": {
-            "date": "01/12/2024",
-            "location": "Πολιτιστικό Συνεδριακό Κέντρο Ηρακλείου",
-            "title": "Παρουσίαση δίσκου «Άσπρουγας» με Sol Ligertwood, Juliette Weiss, Στέφανο Φλωρά"
-        },
-        "33": {
-            "date": "01/12/2024",
-            "location": "Θέατρο Αντίβαρο, Ρέθυμνο",
-            "title": "Παρουσίαση δίσκου «Άσπρουγας» με Sol Ligertwood, Juliette Weiss, Στέφανο Φλωρά"
-        },
-        "34": {
-            "date": "01/05/2025",
-            "location": "Θέατρο Μίκης Θεοδωράκης, Χανιά",
-            "title": "Συναυλία με το μουσικό σύνολο «Ιδιόρρυθμο»"
-        },
-        "35": {
-            "date": "01/05/2025",
-            "location": "Ορθές Μυλοποτάμου",
-            "title": "Συναυλία με το μουσικό σύνολο «Ιδιόρρυθμο»"
-        },
-        "36": {
-            "date": "01/05/2025",
-            "location": "Ανοικτό Θέατρο Συλλάμου",
-            "title": "Συναυλία με το μουσικό σύνολο «Ιδιόρρυθμο»"
-        },
-        "37": {
-            "date": "01/05/2025",
-            "location": "Αντιρατσιστικό Φεστιβάλ, Ρέθυμνο",
-            "title": "Με Κώστα Γαλλιό"
-        },
-        "38": {
-            "date": "01/07/2025",
-            "location": "Γλέντι Αγία Παρασκευή, Χριστός Ιεράπετρας",
-            "title": "Με Γιώργο Ψαράκη, Χάρη Μπάκα και Κώστα Γαλλιό"
-        },
-        "39": {
-            "date": "01/07/2025",
-            "location": "Μαργαρίτες Μυλοποτάμου",
-            "title": "Τριήμερο εργαστήριο λύρας – «Η σούστα στο νομό Ρεθύμνου»"
-        },
-        "40": {
-            "date": "06/08/2025",
-            "location": "Μέση Ρεθύμνου (πλατεία)",
-            "title": "Συναυλία «Ο Ελάχιστος Κόσμος Αφηγείται» με Sol Ligertwood, Juliette Weiss, Στέφανο Φλωρά, Χάρη Μπάκα, Uily Πειμενίδη, Shina Danesh"
-        },
-        "41": {
-            "date": "07/08/2025",
-            "location": "Μουσικό Εργαστήρι Λαβύρινθος, Χουδέτσι Ηρακλείου",
-            "title": "Συναυλία «Ο Ελάχιστος Κόσμος Αφηγείται» με Sol Ligertwood, Juliette Weiss, Στέφανο Φλωρά, Uily Πειμενίδη"
-        },
-        "42": {
-            "date": "11/08/2025",
-            "location": "«Αρμυρίκι», Πλακιάς Ρεθύμνου",
-            "title": "Με Γιώργο Ψαράκη"
-        },
-        "43": {
-            "date": "14/08/2025",
-            "location": "«Το Κλειδί»",
-            "title": "Γλέντι με Γιώργο Ψαράκη και Γιώργο Ζαχαριουδάκη"
-        },
-        "44": {
-            "date": "15/09/2025",
-            "location": "Αγγελιανά Μυλοποτάμου",
-            "title": "Συναυλία με το μουσικό σύνολο Ιδιόρρυθμο"
-        }
+      "title": "Με Γιώργο Μαυρομανωλάκη",
+      "location": "Houdetsi Festival, Κρήτη"
     },
     "en": {
-        "1": {
-            "date": "01/09/2016",
-            "location": "Houdetsi Festival, Crete",
-            "title": "With Giorgos Mavromanolakis"
-        },
-        "2": {
-            "date": "01/09/2016",
-            "location": "Koinono Festival, Tinos",
-            "title": "With Giorgos Mavromanolakis"
-        },
-        "3": {
-            "date": "01/10/2019",
-            "location": "Italian tour – Treviso – Venetia – Revine Lago – Florence",
-            "title": "With Giannis Linardakis, Bernardo Isola, Charalambos Leontidis"
-        },
-        "4": {
-            "date": "01/05/2022",
-            "location": "Netherlands and Belgium – Amsterdam – Rotterdam – Antwerp",
-            "title": "With Haris Laureisen"
-        },
-        "5": {
-            "date": "01/01/2023",
-            "location": "Spain – Madrid – Barcelona – Zaragoza",
-            "title": "With Haris Laureisen"
-        },
-        "6": {
-            "date": "01/03/2023",
-            "location": "France, Belgium, Netherlands – Paris – Leuven – Brussels – Antwerp – Rotterdam",
-            "title": "With Haris Laureisen"
-        },
-        "7": {
-            "date": "01/05/2023",
-            "location": "Margarites, Mylopotamos",
-            "title": "6 years Rodakas Feast with Dimitris Kokolakis and Bernardo Isola"
-        },
-        "8": {
-            "date": "01/08/2023",
-            "location": "Agia Paraskevi Feast, Ierapetra",
-            "title": "With Stelios Mylonakis"
-        },
-        "9": {
-            "date": "01/08/2023",
-            "location": "Idaion Antron, Anogeia",
-            "title": "“All of Greece One Culture” with Bernardo Isola"
-        },
-        "10": {
-            "date": "01/11/2023",
-            "location": "Papoura, Athens",
-            "title": "Cretan music workshop – repertoire of Antonis Pappadakis (Kareklas)"
-        },
-        "11": {
-            "date": "01/11/2023",
-            "location": "Aliko, Athens",
-            "title": "Concert with Haris Laureisen and Andreas Arvanitis"
-        },
-        "12": {
-            "date": "01/01/2024",
-            "location": "Papoura, Athens",
-            "title": "Cretan music workshop – repertoire of Nikolaos Katsoulakis (Koufianos)"
-        },
-        "13": {
-            "date": "01/01/2024",
-            "location": "Aliko, Athens",
-            "title": "Concert with Stelios Filippakis"
-        },
-        "14": {
-            "date": "01/01/2024",
-            "location": "Alkinois, Athens",
-            "title": "Concert with Bernardo Isola"
-        },
-        "15": {
-            "date": "01/04/2024",
-            "location": "Ypoga, Heraklion Crete",
-            "title": "Concert with Eugenia Toli"
-        },
-        "16": {
-            "date": "01/05/2024",
-            "location": "Paris, France",
-            "title": "With Juliette Weiss, Stefano Flora and Sol Ligertwood"
-        },
-        "17": {
-            "date": "01/06/2024",
-            "location": "Margarites, Mylopotamos",
-            "title": "Concert with Idiorrhythmo ensemble"
-        },
-        "18": {
-            "date": "01/06/2024",
-            "location": "“Musical Antibodies” Festival, Kastelli Kissamou",
-            "title": "With Eugenia Toli, Stelios Filippakis"
-        },
-        "19": {
-            "date": "01/06/2024",
-            "location": "“Anafono” Festival, Anafi",
-            "title": "Concert with Idiorrhythmo ensemble"
-        },
-        "20": {
-            "date": "01/06/2024",
-            "location": "Agios Nikolaos Square, Anafi",
-            "title": "With Bernardo Isola and Haris Bacas"
-        },
-        "21": {
-            "date": "01/06/2024",
-            "location": "“Esmigia” Feast, Douliana Apokoronas",
-            "title": "With Stelios Filippakis and Bernardo Isola"
-        },
-        "22": {
-            "date": "01/06/2024",
-            "location": "“To Kleidi” Feast, Katalagari Heraklion",
-            "title": "With Haris Bacas and Bernardo Isola"
-        },
-        "23": {
-            "date": "01/07/2024",
-            "location": "“Rietzer Berg”, Germany",
-            "title": "With Bernardo Isola and Dimitris Kokolakis"
-        },
-        "24": {
-            "date": "01/07/2024",
-            "location": "Katochoria Square, Margarites Mylopotamos",
-            "title": "Feast with Stelios Filippakis, Bernardo Isola, Haris Bacas (Rodakas)"
-        },
-        "25": {
-            "date": "01/08/2024",
-            "location": "“Armiriki”, Plakias",
-            "title": "With Bernardo Isola and Dimitris Kokolakis"
-        },
-        "26": {
-            "date": "01/08/2024",
-            "location": "“Visalo”, Askifou Sfakia",
-            "title": "With Dimitris Kokolakis and Bernardo Isola"
-        },
-        "27": {
-            "date": "01/08/2024",
-            "location": "Agia Paraskevi Feast, Christos Ierapetra",
-            "title": "With Bernardo Isola and Dimitris Kokolakis"
-        },
-        "28": {
-            "date": "01/08/2024",
-            "location": "Feast, Mesi Rethymno",
-            "title": "With Giorgos Zacharioudakis, Stelios Filippakis and Bernardo Isola"
-        },
-        "29": {
-            "date": "01/11/2024",
-            "location": "Papoura, Athens",
-            "title": "Cretan music workshop – repertoire of Michalis Pappadakis (Plakianos)"
-        },
-        "30": {
-            "date": "01/11/2024",
-            "location": "Alkinois, Athens",
-            "title": "Concert with Kyriakos Manias"
-        },
-        "31": {
-            "date": "01/12/2024",
-            "location": "Argo Theater, Athens",
-            "title": "Album presentation “Asprougas” with Sol Ligertwood, Juliette Weiss, Stefano Flora"
-        },
-        "32": {
-            "date": "01/12/2024",
-            "location": "Cultural Conference Center, Heraklion",
-            "title": "Album presentation “Asprougas” with Sol Ligertwood, Juliette Weiss, Stefano Flora"
-        },
-        "33": {
-            "date": "01/12/2024",
-            "location": "Antivaro Theater, Rethymno",
-            "title": "Album presentation “Asprougas” with Sol Ligertwood, Juliette Weiss, Stefano Flora"
-        },
-        "34": {
-            "date": "01/05/2025",
-            "location": "Mikis Theodorakis Theater, Chania",
-            "title": "Concert with Idiorrhythmo ensemble"
-        },
-        "35": {
-            "date": "01/05/2025",
-            "location": "Orthes, Mylopotamos",
-            "title": "Concert with Idiorrhythmo ensemble"
-        },
-        "36": {
-            "date": "01/05/2025",
-            "location": "Open Theater Syllamos",
-            "title": "Concert with Idiorrhythmo ensemble"
-        },
-        "37": {
-            "date": "01/05/2025",
-            "location": "Antiracist Festival, Rethymno",
-            "title": "With Kostas Gallios"
-        },
-        "38": {
-            "date": "01/07/2025",
-            "location": "Agia Paraskevi Feast, Christos Ierapetra",
-            "title": "With Giorgos Psarakis, Haris Bacas and Kostas Gallios"
-        },
-        "39": {
-            "date": "01/07/2025",
-            "location": "Margarites, Mylopotamos",
-            "title": "Three-day lyra workshop – 'The Sousta in the Prefecture of Rethymno'"
-        },
-        "40": {
-            "date": "06/08/2025",
-            "location": "Mesi, Rethymno (square)",
-            "title": "Concert 'The Minimum World Narrates' with Sol Ligertwood, Juliette Weiss, Stefano Flora, Haris Bakas, Uily Peimenidis, Shina Danesh"
-        },
-        "41": {
-            "date": "07/08/2025",
-            "location": "Labyrinth Musical Workshop, Houdetsi Heraklion",
-            "title": "Concert 'The Minimum World Narrates' with Sol Ligertwood, Juliette Weiss, Stefano Flora, Uily Peimenidis"
-        },
-        "42": {
-            "date": "11/08/2025",
-            "location": "‘Almyriki’, Plakias Rethymno",
-            "title": "With Giorgos Psarakis"
-        },
-        "43": {
-            "date": "14/08/2025",
-            "location": "‘To Kleidi’",
-            "title": "Celebration with Giorgos Psarakis and Giorgos Zacharioudakis"
-        },
-        "44": {
-            "date": "15/09/2025",
-            "location": "Aggeliana Mylopotamos",
-            "title": "Concert with Idiorrhythmo ensemble"
-        }
+      "title": "With Giorgos Mavromanolakis",
+      "location": "Houdetsi Festival, Crete"
     },
     "fr": {
-        "1": {
-            "date": "01/09/2016",
-            "location": "Houdetsi Festival, Crète",
-            "title": "avec Giorgos Mavromanolakis"
-        },
-        "2": {
-            "date": "01/09/2016",
-            "location": "Koinono Festival, Tinos",
-            "title": "avec Giorgos Mavromanolakis"
-        },
-        "3": {
-            "date": "01/10/2019",
-            "location": "Treviso – Venetia – Revine Lago – Florence, Italie",
-            "title": "Tournée avec Giannis Linardakis, Bernardo Isola, Charalambos Leontidis"
-        },
-        "4": {
-            "date": "01/05/2022",
-            "location": "Amsterdam – Rotterdam – Anvers, Pays-Bas & Belgique",
-            "title": "avec Haris Laureisen"
-        },
-        "5": {
-            "date": "01/01/2023",
-            "location": "Madrid – Barcelone – Saragosse, Espagne",
-            "title": "avec Haris Laureisen"
-        },
-        "6": {
-            "date": "01/03/2023",
-            "location": "Paris – Louvain – Bruxelles – Anvers – Rotterdam, France/Belgique/Pays-Bas",
-            "title": "Tournée avec Haris Laureisen"
-        },
-        "7": {
-            "date": "01/05/2023",
-            "location": "Margarites, Mylopotamos",
-            "title": "6 ans Rodakas, Fête avec Dimitris Kokolakis et Bernardo Isola"
-        },
-        "8": {
-            "date": "01/08/2023",
-            "location": "Agia Paraskevi, Ierapetra",
-            "title": "Fête avec Stelios Mylonakis"
-        },
-        "9": {
-            "date": "01/08/2023",
-            "location": "Ideon Cave, Anogeia",
-            "title": "« Toute la Grèce, une Culture » avec Bernardo Isola"
-        },
-        "10": {
-            "date": "01/11/2023",
-            "location": "Papoura, Athènes",
-            "title": "Atelier de musique crétoise – répertoire d’Antonis Papadakis (Kareklas)"
-        },
-        "11": {
-            "date": "01/11/2023",
-            "location": "Aliko, Athènes",
-            "title": "Concert avec Haris Laureisen et Andreas Arvanitis"
-        },
-        "12": {
-            "date": "01/01/2024",
-            "location": "Papoura, Athènes",
-            "title": "Atelier de musique crétoise – répertoire de Nikolaos Katsoulakis (Koufianos)"
-        },
-        "13": {
-            "date": "01/01/2024",
-            "location": "Aliko, Athènes",
-            "title": "Concert avec Stelios Filippakis"
-        },
-        "14": {
-            "date": "01/01/2024",
-            "location": "Alkinois, Athènes",
-            "title": "Concert avec Bernardo Isola"
-        },
-        "15": {
-            "date": "01/04/2024",
-            "location": "Ypoga, Héraklion Crète",
-            "title": "Concert avec Evgenia Toli"
-        },
-        "16": {
-            "date": "01/05/2024",
-            "location": "Paris, France",
-            "title": "Concert avec Juliette Weiss, Stefano Flora, Sol Ligertwood"
-        },
-        "17": {
-            "date": "01/06/2024",
-            "location": "Margarites, Mylopotamos",
-            "title": "Concert avec le groupe Idiorrhythmo"
-        },
-        "18": {
-            "date": "01/06/2024",
-            "location": "Kasteli Kissamos, Festival « Music Antibodies »",
-            "title": "avec Evgenia Toli et Stelios Filippakis"
-        },
-        "19": {
-            "date": "01/06/2024",
-            "location": "Anafi, Festival « Anafono »",
-            "title": "Concert avec le groupe Idiorrhythmo"
-        },
-        "20": {
-            "date": "01/06/2024",
-            "location": "Place Agios Nikolaos, Anafi",
-            "title": "avec Bernardo Isola et Haris Bakas"
-        },
-        "21": {
-            "date": "01/06/2024",
-            "location": "Ntouliana, Apokoronas",
-            "title": "Fête « Esmiya » avec Stelios Filippakis et Bernardo Isola"
-        },
-        "22": {
-            "date": "01/06/2024",
-            "location": "Katalagari, Heraklion",
-            "title": "Fête « To Kleidi » avec Haris Bakas et Bernardo Isola"
-        },
-        "23": {
-            "date": "01/07/2024",
-            "location": "Rietzer Berg, Allemagne",
-            "title": "avec Bernardo Isola et Dimitris Kokolakis"
-        },
-        "24": {
-            "date": "01/07/2024",
-            "location": "Place Katohoria, Margarites, Mylopotamos",
-            "title": "Fête avec Stelios Filippakis, Bernardo Isola et Haris Bakas, organisée par Rodakas"
-        },
-        "25": {
-            "date": "01/08/2024",
-            "location": "‘Almyriki’, Plakias",
-            "title": "avec Bernardo Isola et Dimitris Kokolakis"
-        },
-        "26": {
-            "date": "01/08/2024",
-            "location": "‘Visalo’, Askifou, Sfakia",
-            "title": "avec Dimitris Kokolakis et Bernardo Isola"
-        },
-        "27": {
-            "date": "01/08/2024",
-            "location": "Agia Paraskevi, Christos, Ierapetra",
-            "title": "avec Bernardo Isola et Dimitris Kokolakis"
-        },
-        "28": {
-            "date": "01/08/2024",
-            "location": "Mesi, Rethymno",
-            "title": "Fête avec Giorgos Zacharioudakis, Stelios Filippakis et Bernardo Isola"
-        },
-        "29": {
-            "date": "01/11/2024",
-            "location": "Papoura, Athènes",
-            "title": "Atelier de musique crétoise – répertoire de Michalis Papadakis (Plakianos)"
-        },
-        "30": {
-            "date": "01/11/2024",
-            "location": "Alkinois, Athènes",
-            "title": "Concert avec Kyriakos Mania"
-        },
-        "31": {
-            "date": "01/12/2024",
-            "location": "Théâtre Argo, Athènes",
-            "title": "Présentation de l’album « Asprougas » avec Sol Ligertwood, Juliette Weiss et Stefano Flora"
-        },
-        "32": {
-            "date": "01/12/2024",
-            "location": "Centre Culturel et de Conférence, Héraklion",
-            "title": "Présentation de l’album « Asprougas » avec Sol Ligertwood, Juliette Weiss et Stefano Flora"
-        },
-        "33": {
-            "date": "01/12/2024",
-            "location": "Théâtre Antivaro, Rethymno",
-            "title": "Présentation de l’album « Asprougas » avec Sol Ligertwood, Juliette Weiss et Stefano Flora"
-        },
-        "34": {
-            "date": "01/05/2025",
-            "location": "Théâtre Mikis Theodorakis, Chania",
-            "title": "Concert avec le groupe Idiorrhythmo"
-        },
-        "35": {
-            "date": "01/05/2025",
-            "location": "Ortes, Mylopotamos",
-            "title": "Concert avec le groupe Idiorrhythmo"
-        },
-        "36": {
-            "date": "01/05/2025",
-            "location": "Théâtre en plein air, Syllamos",
-            "title": "Concert avec le groupe Idiorrhythmo"
-        },
-        "37": {
-            "date": "01/05/2025",
-            "location": "Festival Antiraciste, Rethymno",
-            "title": "avec Kostas Gallios"
-        },
-        "38": {
-            "date": "01/07/2025",
-            "location": "Agia Paraskevi, Christos, Ierapetra",
-            "title": "Fête avec Giorgos Psarakis, Haris Bakas et Kostas Gallios"
-        },
-        "39": {
-            "date": "01/07/2025",
-            "location": "Margarites, Mylopotamos",
-            "title": "Atelier lyra trois jours – 'La Sousta dans le département de Rethymno'"
-        },
-        "40": {
-            "date": "06/08/2025",
-            "location": "Mesi, Rethymno (place)",
-            "title": "Concert 'Le Monde Minimum Raconte' avec Sol Ligertwood, Juliette Weiss, Stefano Flora, Haris Bakas, Uily Peimenidis, Shina Danesh"
-        },
-        "41": {
-            "date": "07/08/2025",
-            "location": "Labyrinth Musical Workshop, Houdetsi Heraklion",
-            "title": "Concert 'Le Monde Minimum Raconte' avec Sol Ligertwood, Juliette Weiss, Stefano Flora, Uily Peimenidis"
-        },
-        "42": {
-            "date": "11/08/2025",
-            "location": "‘Almyriki’, Plakias Rethymno",
-            "title": "Avec Giorgos Psarakis"
-        },
-        "43": {
-            "date": "14/08/2025",
-            "location": "‘To Kleidi’",
-            "title": "Fête avec Giorgos Psarakis et Giorgos Zacharioudakis"
-        },
-        "44": {
-            "date": "15/09/2025",
-            "location": "Aggeliana Mylopotamos",
-            "title": "Concert avec le groupe Idiorrhythmo"
-        }
+      "title": "avec Giorgos Mavromanolakis",
+      "location": "Houdetsi Festival, Crète"
     }
-}
+  },
+  {
+    "id": "2",
+    "date": "01/09/2016",
+    "el": {
+      "title": "Με Γιώργο Μαυρομανωλάκη",
+      "location": "Koinono Festival, Τίνος"
+    },
+    "en": {
+      "title": "With Giorgos Mavromanolakis",
+      "location": "Koinono Festival, Tinos"
+    },
+    "fr": {
+      "title": "avec Giorgos Mavromanolakis",
+      "location": "Koinono Festival, Tinos"
+    }
+  },
+  {
+    "id": "3",
+    "date": "01/10/2019",
+    "el": {
+      "title": "Με Γιάννη Λιναρδάκη, Bernardo Isola, Χαράλαμπο Λεοντίδη",
+      "location": "Italian tour – Treviso – Venetia – Revine Lago – Firenze"
+    },
+    "en": {
+      "title": "With Giannis Linardakis, Bernardo Isola, Charalambos Leontidis",
+      "location": "Italian tour – Treviso – Venetia – Revine Lago – Florence"
+    },
+    "fr": {
+      "title": "Tournée avec Giannis Linardakis, Bernardo Isola, Charalambos Leontidis",
+      "location": "Treviso – Venetia – Revine Lago – Florence, Italie"
+    }
+  },
+  {
+    "id": "4",
+    "date": "01/05/2022",
+    "el": {
+      "title": "Με Χάρη Λαουρέισεν",
+      "location": "Netherlands and Belgium – Amsterdam – Rotterdam – Amversa"
+    },
+    "en": {
+      "title": "With Haris Laureisen",
+      "location": "Netherlands and Belgium – Amsterdam – Rotterdam – Antwerp"
+    },
+    "fr": {
+      "title": "avec Haris Laureisen",
+      "location": "Amsterdam – Rotterdam – Anvers, Pays-Bas & Belgique"
+    }
+  },
+  {
+    "id": "5",
+    "date": "01/01/2023",
+    "el": {
+      "title": "Με Χάρη Λαουρέισεν",
+      "location": "Spain – Madrid – Barcelona – Saragossa"
+    },
+    "en": {
+      "title": "With Haris Laureisen",
+      "location": "Spain – Madrid – Barcelona – Zaragoza"
+    },
+    "fr": {
+      "title": "avec Haris Laureisen",
+      "location": "Madrid – Barcelone – Saragosse, Espagne"
+    }
+  },
+  {
+    "id": "6",
+    "date": "01/03/2023",
+    "el": {
+      "title": "Με Χάρη Λαουρέισεν",
+      "location": "France, Belgium, Netherlands – Paris – Leuven – Brussels – Amversa – Rotterdam"
+    },
+    "en": {
+      "title": "With Haris Laureisen",
+      "location": "France, Belgium, Netherlands – Paris – Leuven – Brussels – Antwerp – Rotterdam"
+    },
+    "fr": {
+      "title": "Tournée avec Haris Laureisen",
+      "location": "Paris – Louvain – Bruxelles – Anvers – Rotterdam, France/Belgique/Pays-Bas"
+    }
+  },
+  {
+    "id": "7",
+    "date": "01/05/2023",
+    "el": {
+      "title": "6 χρόνια Ρόδακας με Δήμητρη Κοκολάκη και Bernardo Isola",
+      "location": "Γλέντι Μαργαρίτες Μυλοποτάμου"
+    },
+    "en": {
+      "title": "6 years Rodakas Feast with Dimitris Kokolakis and Bernardo Isola",
+      "location": "Margarites, Mylopotamos"
+    },
+    "fr": {
+      "title": "6 ans Rodakas, Fête avec Dimitris Kokolakis et Bernardo Isola",
+      "location": "Margarites, Mylopotamos"
+    }
+  },
+  {
+    "id": "8",
+    "date": "01/08/2023",
+    "el": {
+      "title": "Με Στέλιο Μυλωνάκη",
+      "location": "Γλέντι Αγία Παρασκευή, Ιεράπετρα"
+    },
+    "en": {
+      "title": "With Stelios Mylonakis",
+      "location": "Agia Paraskevi Feast, Ierapetra"
+    },
+    "fr": {
+      "title": "Fête avec Stelios Mylonakis",
+      "location": "Agia Paraskevi, Ierapetra"
+    }
+  },
+  {
+    "id": "9",
+    "date": "01/08/2023",
+    "el": {
+      "title": "«Όλη η Ελλάδα ένας Πολιτισμός» με Bernardo Isola",
+      "location": "Ιδαίο Άντρο, Ανώγεια"
+    },
+    "en": {
+      "title": "“All of Greece One Culture” with Bernardo Isola",
+      "location": "Idaion Antron, Anogeia"
+    },
+    "fr": {
+      "title": "« Toute la Grèce, une Culture » avec Bernardo Isola",
+      "location": "Ideon Cave, Anogeia"
+    }
+  },
+  {
+    "id": "10",
+    "date": "01/11/2023",
+    "el": {
+      "title": "Εργαστήριο κρητικής μουσικής – ρεπερτόριο Αντώνη Παππαδάκη (Καρεκλά)",
+      "location": "Παπούρα, Αθήνα"
+    },
+    "en": {
+      "title": "Cretan music workshop – repertoire of Antonis Pappadakis (Kareklas)",
+      "location": "Papoura, Athens"
+    },
+    "fr": {
+      "title": "Atelier de musique crétoise – répertoire d’Antonis Papadakis (Kareklas)",
+      "location": "Papoura, Athènes"
+    }
+  },
+  {
+    "id": "11",
+    "date": "01/11/2023",
+    "el": {
+      "title": "Συναυλία με Χάρη Λαουρέισεν και Αντρέα Αρβανίτη",
+      "location": "Άλικο, Αθήνα"
+    },
+    "en": {
+      "title": "Concert with Haris Laureisen and Andreas Arvanitis",
+      "location": "Aliko, Athens"
+    },
+    "fr": {
+      "title": "Concert avec Haris Laureisen et Andreas Arvanitis",
+      "location": "Aliko, Athènes"
+    }
+  },
+  {
+    "id": "12",
+    "date": "01/01/2024",
+    "el": {
+      "title": "Εργαστήριο κρητικής μουσικής – ρεπερτόριο Νικόλαου Κατσουλάκη (Κουφιανού)",
+      "location": "Παπούρα, Αθήνα"
+    },
+    "en": {
+      "title": "Cretan music workshop – repertoire of Nikolaos Katsoulakis (Koufianos)",
+      "location": "Papoura, Athens"
+    },
+    "fr": {
+      "title": "Atelier de musique crétoise – répertoire de Nikolaos Katsoulakis (Koufianos)",
+      "location": "Papoura, Athènes"
+    }
+  },
+  {
+    "id": "13",
+    "date": "01/01/2024",
+    "el": {
+      "title": "Συναυλία με Στέλιο Φιλιππάκη",
+      "location": "Άλικο, Αθήνα"
+    },
+    "en": {
+      "title": "Concert with Stelios Filippakis",
+      "location": "Aliko, Athens"
+    },
+    "fr": {
+      "title": "Concert avec Stelios Filippakis",
+      "location": "Aliko, Athènes"
+    }
+  },
+  {
+    "id": "14",
+    "date": "01/01/2024",
+    "el": {
+      "title": "Συναυλία με Bernardo Isola",
+      "location": "Alkinois, Αθήνα"
+    },
+    "en": {
+      "title": "Concert with Bernardo Isola",
+      "location": "Alkinois, Athens"
+    },
+    "fr": {
+      "title": "Concert avec Bernardo Isola",
+      "location": "Alkinois, Athènes"
+    }
+  },
+  {
+    "id": "15",
+    "date": "01/04/2024",
+    "el": {
+      "title": "Συναυλία με Ευγενία Τόλη",
+      "location": "Υπόγα, Ηράκλειο Κρήτης"
+    },
+    "en": {
+      "title": "Concert with Eugenia Toli",
+      "location": "Ypoga, Heraklion Crete"
+    },
+    "fr": {
+      "title": "Concert avec Evgenia Toli",
+      "location": "Ypoga, Héraklion Crète"
+    }
+  },
+  {
+    "id": "16",
+    "date": "01/05/2024",
+    "el": {
+      "title": "Με Juliette Weiss, Στέφανο Φλωρά και Sol Ligertwood",
+      "location": "Paris, France"
+    },
+    "en": {
+      "title": "With Juliette Weiss, Stefano Flora and Sol Ligertwood",
+      "location": "Paris, France"
+    },
+    "fr": {
+      "title": "Concert avec Juliette Weiss, Stefano Flora, Sol Ligertwood",
+      "location": "Paris, France"
+    }
+  },
+  {
+    "id": "17",
+    "date": "01/06/2024",
+    "el": {
+      "title": "Συναυλία με το μουσικό σύνολο Ιδιόρρυθμο",
+      "location": "Μαργαρίτες Μυλοποτάμου"
+    },
+    "en": {
+      "title": "Concert with Idiorrhythmo ensemble",
+      "location": "Margarites, Mylopotamos"
+    },
+    "fr": {
+      "title": "Concert avec le groupe Idiorrhythmo",
+      "location": "Margarites, Mylopotamos"
+    }
+  },
+  {
+    "id": "18",
+    "date": "01/06/2024",
+    "el": {
+      "title": "Με Ευγενία Τόλη, Στέλιο Φιλιππάκη",
+      "location": "Φεστιβάλ «Μουσικά Αντισώματα», Καστέλι Κισσάμου"
+    },
+    "en": {
+      "title": "With Eugenia Toli, Stelios Filippakis",
+      "location": "“Musical Antibodies” Festival, Kastelli Kissamou"
+    },
+    "fr": {
+      "title": "avec Evgenia Toli et Stelios Filippakis",
+      "location": "Kasteli Kissamos, Festival « Music Antibodies »"
+    }
+  },
+  {
+    "id": "19",
+    "date": "01/06/2024",
+    "el": {
+      "title": "Συναυλία με το μουσικό σύνολο Ιδιόρρυθμο",
+      "location": "Φεστιβάλ «Αναφωνώ», Ανάφη"
+    },
+    "en": {
+      "title": "Concert with Idiorrhythmo ensemble",
+      "location": "“Anafono” Festival, Anafi"
+    },
+    "fr": {
+      "title": "Concert avec le groupe Idiorrhythmo",
+      "location": "Anafi, Festival « Anafono »"
+    }
+  },
+  {
+    "id": "20",
+    "date": "01/06/2024",
+    "el": {
+      "title": "Με Bernardo Isola και Χάρη Μπάκα",
+      "location": "Πλατεία Αγίου Νικολάου, Ανάφη"
+    },
+    "en": {
+      "title": "With Bernardo Isola and Haris Bacas",
+      "location": "Agios Nikolaos Square, Anafi"
+    },
+    "fr": {
+      "title": "avec Bernardo Isola et Haris Bakas",
+      "location": "Place Agios Nikolaos, Anafi"
+    }
+  },
+  {
+    "id": "21",
+    "date": "01/06/2024",
+    "el": {
+      "title": "Με Στέλιο Φιλιππάκη και Bernardo Isola",
+      "location": "Γλέντι «Εσμιγιά», Ντουλιανά Αποκορώνου"
+    },
+    "en": {
+      "title": "With Stelios Filippakis and Bernardo Isola",
+      "location": "“Esmigia” Feast, Douliana Apokoronas"
+    },
+    "fr": {
+      "title": "Fête « Esmiya » avec Stelios Filippakis et Bernardo Isola",
+      "location": "Ntouliana, Apokoronas"
+    }
+  },
+  {
+    "id": "22",
+    "date": "01/06/2024",
+    "el": {
+      "title": "Με Χάρη Μπάκα και Bernardo Isola",
+      "location": "Γλέντι «Το Κλειδί», Καταλαγάρι Ηρακλείου"
+    },
+    "en": {
+      "title": "With Haris Bacas and Bernardo Isola",
+      "location": "“To Kleidi” Feast, Katalagari Heraklion"
+    },
+    "fr": {
+      "title": "Fête « To Kleidi » avec Haris Bakas et Bernardo Isola",
+      "location": "Katalagari, Heraklion"
+    }
+  },
+  {
+    "id": "23",
+    "date": "01/07/2024",
+    "el": {
+      "title": "Με Bernardo Isola και Δημήτρη Κοκολάκη",
+      "location": "«Rietzer Berg», Γερμανία"
+    },
+    "en": {
+      "title": "With Bernardo Isola and Dimitris Kokolakis",
+      "location": "“Rietzer Berg”, Germany"
+    },
+    "fr": {
+      "title": "avec Bernardo Isola et Dimitris Kokolakis",
+      "location": "Rietzer Berg, Allemagne"
+    }
+  },
+  {
+    "id": "24",
+    "date": "01/07/2024",
+    "el": {
+      "title": "Γλέντι με Στέλιο Φιλιππάκη, Bernardo Isola, Χάρη Μπάκα (Ρόδακας)",
+      "location": "Πλατεία Κατωχωριάς, Μαργαρίτες Μυλοποτάμου"
+    },
+    "en": {
+      "title": "Feast with Stelios Filippakis, Bernardo Isola, Haris Bacas (Rodakas)",
+      "location": "Katochoria Square, Margarites Mylopotamos"
+    },
+    "fr": {
+      "title": "Fête avec Stelios Filippakis, Bernardo Isola et Haris Bakas, organisée par Rodakas",
+      "location": "Place Katohoria, Margarites, Mylopotamos"
+    }
+  },
+  {
+    "id": "25",
+    "date": "01/08/2024",
+    "el": {
+      "title": "Με Bernardo Isola και Δημήτρη Κοκολάκη",
+      "location": "«Αρμυρίκι», Πλακιάς"
+    },
+    "en": {
+      "title": "With Bernardo Isola and Dimitris Kokolakis",
+      "location": "“Armiriki”, Plakias"
+    },
+    "fr": {
+      "title": "avec Bernardo Isola et Dimitris Kokolakis",
+      "location": "‘Almyriki’, Plakias"
+    }
+  },
+  {
+    "id": "26",
+    "date": "01/08/2024",
+    "el": {
+      "title": "Με Δημήτρη Κοκολάκη και Bernardo Isola",
+      "location": "«Βήσαλο», Ασκύφου Σφακιά"
+    },
+    "en": {
+      "title": "With Dimitris Kokolakis and Bernardo Isola",
+      "location": "“Visalo”, Askifou Sfakia"
+    },
+    "fr": {
+      "title": "avec Dimitris Kokolakis et Bernardo Isola",
+      "location": "‘Visalo’, Askifou, Sfakia"
+    }
+  },
+  {
+    "id": "27",
+    "date": "01/08/2024",
+    "el": {
+      "title": "Με Bernardo Isola και Δημήτρη Κοκολάκη",
+      "location": "Γλέντι «Αγία Παρασκευή», Χριστός Ιεράπετρας"
+    },
+    "en": {
+      "title": "With Bernardo Isola and Dimitris Kokolakis",
+      "location": "Agia Paraskevi Feast, Christos Ierapetra"
+    },
+    "fr": {
+      "title": "avec Bernardo Isola et Dimitris Kokolakis",
+      "location": "Agia Paraskevi, Christos, Ierapetra"
+    }
+  },
+  {
+    "id": "28",
+    "date": "01/08/2024",
+    "el": {
+      "title": "Με Γιώργο Ζαχαριουδάκη, Στέλιο Φιλιππάκη και Bernardo Isola",
+      "location": "Πανηγύρι, Μέση Ρεθύμνου"
+    },
+    "en": {
+      "title": "With Giorgos Zacharioudakis, Stelios Filippakis and Bernardo Isola",
+      "location": "Feast, Mesi Rethymno"
+    },
+    "fr": {
+      "title": "Fête avec Giorgos Zacharioudakis, Stelios Filippakis et Bernardo Isola",
+      "location": "Mesi, Rethymno"
+    }
+  },
+  {
+    "id": "29",
+    "date": "01/11/2024",
+    "el": {
+      "title": "Εργαστήριο κρητικής μουσικής – ρεπερτόριο Μιχάλη Παππαδάκη (Πλακιανού)",
+      "location": "Παπούρα, Αθήνα"
+    },
+    "en": {
+      "title": "Cretan music workshop – repertoire of Michalis Pappadakis (Plakianos)",
+      "location": "Papoura, Athens"
+    },
+    "fr": {
+      "title": "Atelier de musique crétoise – répertoire de Michalis Papadakis (Plakianos)",
+      "location": "Papoura, Athènes"
+    }
+  },
+  {
+    "id": "30",
+    "date": "01/11/2024",
+    "el": {
+      "title": "Συναυλία με Κυριάκο Μανιά",
+      "location": "Alkinois, Αθήνα"
+    },
+    "en": {
+      "title": "Concert with Kyriakos Manias",
+      "location": "Alkinois, Athens"
+    },
+    "fr": {
+      "title": "Concert avec Kyriakos Mania",
+      "location": "Alkinois, Athènes"
+    }
+  },
+  {
+    "id": "31",
+    "date": "01/12/2024",
+    "el": {
+      "title": "Παρουσίαση δίσκου «Άσπρουγας» με Sol Ligertwood, Juliette Weiss, Στέφανο Φλωρά",
+      "location": "Θέατρο Αργώ, Αθήνα"
+    },
+    "en": {
+      "title": "Album presentation “Asprougas” with Sol Ligertwood, Juliette Weiss, Stefano Flora",
+      "location": "Argo Theater, Athens"
+    },
+    "fr": {
+      "title": "Présentation de l’album « Asprougas » avec Sol Ligertwood, Juliette Weiss et Stefano Flora",
+      "location": "Théâtre Argo, Athènes"
+    }
+  },
+  {
+    "id": "32",
+    "date": "01/12/2024",
+    "el": {
+      "title": "Παρουσίαση δίσκου «Άσπρουγας» με Sol Ligertwood, Juliette Weiss, Στέφανο Φλωρά",
+      "location": "Πολιτιστικό Συνεδριακό Κέντρο Ηρακλείου"
+    },
+    "en": {
+      "title": "Album presentation “Asprougas” with Sol Ligertwood, Juliette Weiss, Stefano Flora",
+      "location": "Cultural Conference Center, Heraklion"
+    },
+    "fr": {
+      "title": "Présentation de l’album « Asprougas » avec Sol Ligertwood, Juliette Weiss et Stefano Flora",
+      "location": "Centre Culturel et de Conférence, Héraklion"
+    }
+  },
+  {
+    "id": "33",
+    "date": "01/12/2024",
+    "el": {
+      "title": "Παρουσίαση δίσκου «Άσπρουγας» με Sol Ligertwood, Juliette Weiss, Στέφανο Φλωρά",
+      "location": "Θέατρο Αντίβαρο, Ρέθυμνο"
+    },
+    "en": {
+      "title": "Album presentation “Asprougas” with Sol Ligertwood, Juliette Weiss, Stefano Flora",
+      "location": "Antivaro Theater, Rethymno"
+    },
+    "fr": {
+      "title": "Présentation de l’album « Asprougas » avec Sol Ligertwood, Juliette Weiss et Stefano Flora",
+      "location": "Théâtre Antivaro, Rethymno"
+    }
+  },
+  {
+    "id": "34",
+    "date": "01/05/2025",
+    "el": {
+      "title": "Συναυλία με το μουσικό σύνολο «Ιδιόρρυθμο»",
+      "location": "Θέατρο Μίκης Θεοδωράκης, Χανιά"
+    },
+    "en": {
+      "title": "Concert with Idiorrhythmo ensemble",
+      "location": "Mikis Theodorakis Theater, Chania"
+    },
+    "fr": {
+      "title": "Concert avec le groupe Idiorrhythmo",
+      "location": "Théâtre Mikis Theodorakis, Chania"
+    }
+  },
+  {
+    "id": "35",
+    "date": "01/05/2025",
+    "el": {
+      "title": "Συναυλία με το μουσικό σύνολο «Ιδιόρρυθμο»",
+      "location": "Ορθές Μυλοποτάμου"
+    },
+    "en": {
+      "title": "Concert with Idiorrhythmo ensemble",
+      "location": "Orthes, Mylopotamos"
+    },
+    "fr": {
+      "title": "Concert avec le groupe Idiorrhythmo",
+      "location": "Ortes, Mylopotamos"
+    }
+  },
+  {
+    "id": "36",
+    "date": "01/05/2025",
+    "el": {
+      "title": "Συναυλία με το μουσικό σύνολο «Ιδιόρρυθμο»",
+      "location": "Ανοικτό Θέατρο Συλλάμου"
+    },
+    "en": {
+      "title": "Concert with Idiorrhythmo ensemble",
+      "location": "Open Theater Syllamos"
+    },
+    "fr": {
+      "title": "Concert avec le groupe Idiorrhythmo",
+      "location": "Théâtre en plein air, Syllamos"
+    }
+  },
+  {
+    "id": "37",
+    "date": "01/05/2025",
+    "el": {
+      "title": "Με Κώστα Γαλλιό",
+      "location": "Αντιρατσιστικό Φεστιβάλ, Ρέθυμνο"
+    },
+    "en": {
+      "title": "With Kostas Gallios",
+      "location": "Antiracist Festival, Rethymno"
+    },
+    "fr": {
+      "title": "avec Kostas Gallios",
+      "location": "Festival Antiraciste, Rethymno"
+    }
+  },
+  {
+    "id": "38",
+    "date": "01/07/2025",
+    "el": {
+      "title": "Με Γιώργο Ψαράκη, Χάρη Μπάκα και Κώστα Γαλλιό",
+      "location": "Γλέντι Αγία Παρασκευή, Χριστός Ιεράπετρας"
+    },
+    "en": {
+      "title": "With Giorgos Psarakis, Haris Bacas and Kostas Gallios",
+      "location": "Agia Paraskevi Feast, Christos Ierapetra"
+    },
+    "fr": {
+      "title": "Fête avec Giorgos Psarakis, Haris Bakas et Kostas Gallios",
+      "location": "Agia Paraskevi, Christos, Ierapetra"
+    }
+  },
+  {
+    "id": "39",
+    "date": "01/07/2025",
+    "el": {
+      "title": "Τριήμερο εργαστήριο λύρας – «Η σούστα στο νομό Ρεθύμνου»",
+      "location": "Μαργαρίτες Μυλοποτάμου"
+    },
+    "en": {
+      "title": "Three-day lyra workshop – 'The Sousta in the Prefecture of Rethymno'",
+      "location": "Margarites, Mylopotamos"
+    },
+    "fr": {
+      "title": "Atelier lyra trois jours – 'La Sousta dans le département de Rethymno'",
+      "location": "Margarites, Mylopotamos"
+    }
+  },
+  {
+    "id": "40",
+    "date": "06/08/2025",
+    "el": {
+      "title": "Συναυλία «Ο Ελάχιστος Κόσμος Αφηγείται» με Sol Ligertwood, Juliette Weiss, Στέφανο Φλωρά, Χάρη Μπάκα, Uily Πειμενίδη, Shina Danesh",
+      "location": "Μέση Ρεθύμνου (πλατεία)"
+    },
+    "en": {
+      "title": "Concert 'The Minimum World Narrates' with Sol Ligertwood, Juliette Weiss, Stefano Flora, Haris Bakas, Uily Peimenidis, Shina Danesh",
+      "location": "Mesi, Rethymno (square)"
+    },
+    "fr": {
+      "title": "Concert 'Le Monde Minimum Raconte' avec Sol Ligertwood, Juliette Weiss, Stefano Flora, Haris Bakas, Uily Peimenidis, Shina Danesh",
+      "location": "Mesi, Rethymno (place)"
+    }
+  },
+  {
+    "id": "41",
+    "date": "07/08/2025",
+    "el": {
+      "title": "Συναυλία «Ο Ελάχιστος Κόσμος Αφηγείται» με Sol Ligertwood, Juliette Weiss, Στέφανο Φλωρά, Uily Πειμενίδη",
+      "location": "Μουσικό Εργαστήρι Λαβύρινθος, Χουδέτσι Ηρακλείου"
+    },
+    "en": {
+      "title": "Concert 'The Minimum World Narrates' with Sol Ligertwood, Juliette Weiss, Stefano Flora, Uily Peimenidis",
+      "location": "Labyrinth Musical Workshop, Houdetsi Heraklion"
+    },
+    "fr": {
+      "title": "Concert 'Le Monde Minimum Raconte' avec Sol Ligertwood, Juliette Weiss, Stefano Flora, Uily Peimenidis",
+      "location": "Labyrinth Musical Workshop, Houdetsi Heraklion"
+    }
+  },
+  {
+    "id": "42",
+    "date": "11/08/2025",
+    "el": {
+      "title": "Με Γιώργο Ψαράκη",
+      "location": "«Αρμυρίκι», Πλακιάς Ρεθύμνου"
+    },
+    "en": {
+      "title": "With Giorgos Psarakis",
+      "location": "‘Almyriki’, Plakias Rethymno"
+    },
+    "fr": {
+      "title": "Avec Giorgos Psarakis",
+      "location": "‘Almyriki’, Plakias Rethymno"
+    }
+  },
+  {
+    "id": "43",
+    "date": "14/08/2025",
+    "el": {
+      "title": "Γλέντι με Γιώργο Ψαράκη και Γιώργο Ζαχαριουδάκη",
+      "location": "«Το Κλειδί»"
+    },
+    "en": {
+      "title": "Celebration with Giorgos Psarakis and Giorgos Zacharioudakis",
+      "location": "‘To Kleidi’"
+    },
+    "fr": {
+      "title": "Fête avec Giorgos Psarakis et Giorgos Zacharioudakis",
+      "location": "‘To Kleidi’"
+    }
+  },
+  {
+    "id": "44",
+    "date": "15/09/2025",
+    "el": {
+      "title": "Συναυλία με το μουσικό σύνολο Ιδιόρρυθμο",
+      "location": "Αγγελιανά Μυλοποτάμου"
+    },
+    "en": {
+      "title": "Concert with Idiorrhythmo ensemble",
+      "location": "Aggeliana Mylopotamos"
+    },
+    "fr": {
+      "title": "Concert avec le groupe Idiorrhythmo",
+      "location": "Aggeliana Mylopotamos"
+    }
+  }
+]
