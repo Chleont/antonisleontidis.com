@@ -1,0 +1,66 @@
+
+content:
+  - name: events
+    label: Concerts
+    type: file
+    path: events.json
+    format: json
+    list: true
+
+    operations:
+      delete: false
+
+    fields:
+      - name: id
+        label: Event ID
+        type: uuid
+        required: true
+
+      - name: date
+        label: Concert Date
+        type: date
+        required: true
+        options:
+          format: dd/MM/yyyy
+
+      - name: el
+        label: Greek
+        type: object
+        fields:
+          - name: title
+            label: Title (Greek)
+            type: string
+            required: true
+
+          - name: location
+            label: Location (Greek)
+            type: string
+            required: true
+
+      - name: en
+        label: English
+        type: object
+        fields:
+          - name: title
+            label: Title (English)
+            type: string
+            required: true
+
+          - name: location
+            label: Location (English)
+            type: string
+            required: true
+
+      - name: fr
+        label: French
+        type: object
+        fields:
+          - name: title
+            label: Title (French)
+            type: string
+            required: true
+
+          - name: location
+            label: Location (French)
+            type: string
+            required: true
