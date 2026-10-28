@@ -766,5 +766,21 @@
       "title": "Concert \"Asprougas\" avec Sol Ligertwood, Juliette Weiss, Stefano Flora et Hari Baka. Preneur de son: Vangelis Apostolou",
       "location": "Théâtre en plein air, Syllamos"
     }
+  },
+  {
+    "id": "5c941476-9e55-4346-a79b-e3ed692320f0",
+    "date": "28/10/2026",
+    "el": {
+      "title": "Μουσική παράσταση \"Άχρονος\" με Juliette Weiss, Στέφανο Φλωρά, Sol Ligertwood, Χάρη Μπάκα και Βαγγέλη Λιοδάκη. Ηχοληψία: Βαγγέλης Αποστόλου",
+      "location": "Σπήλαιο Μελιδονίου"
+    },
+    "en": {
+      "title": "Musical performance \"Ahronos\" with Sol Ligertwood, Juliette Weiss, Stefano Flora, Hari Baka and Vangelis Liodakis. Sound engineer: Vangelis Apostolou",
+      "location": "Melidoni cave"
+    },
+    "fr": {
+      "title": "Spectacle musical \"Ahronos\" avec Sol Ligertwood, Juliette Weiss, Stefano Flora, Hari Baka et Vangelis Liodakis. Preneur de son: Vangelis Apostolou",
+      "location": " Grotte de Melidoni"
+    }
   }
 ]
