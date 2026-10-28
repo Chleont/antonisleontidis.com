@@ -718,5 +718,21 @@
       "title": "Concert avec le groupe Idiorrhythmo",
       "location": "Margarites"
     }
+  },
+  {
+    "id": "d4df8fa0-4ddf-4ccf-b51f-00f6808a9a87",
+    "date": "25/07/2026",
+    "el": {
+      "title": "Γλέντι Ρόδακα με Κώστα Γαλλιό, Δημήτρη Κοκολάκη, Χάρη Μπάκα, Νίκο Δοξαστάκη. Ηχοληψία: Βαγγέλης Αποστόλου",
+      "location": "Μαργαρίτες"
+    },
+    "en": {
+      "title": "Gig with Kostas Gallios, Dimitris Kokolakis, Haris Bakas, Nikos Doxastakis. Sound engineer: Vangelis Apostolou ",
+      "location": "Margarites"
+    },
+    "fr": {
+      "title": "Fête avecKostas Gallios, Dimitris Kokolakis, Haris Bakas, Nikos Doxastakis. Enregistrement sonore: Vangelis Apostolou",
+      "location": "Margarites"
+    }
   }
 ]
