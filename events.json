@@ -734,5 +734,21 @@
       "title": "Fête avec Kostas Gallios, Dimitris Kokolakis, Haris Bakas, Nikos Doxastakis. Enregistrement sonore: Vangelis Apostolou",
       "location": "Margarites"
     }
+  },
+  {
+    "id": "7ba445ed-32e4-4b5f-a4ca-aaf7ca4dd87f",
+    "date": "02/08/2026",
+    "el": {
+      "title": "Γλέντι στον Χριστό Ιεράπετρας με Κώστα Γαλλιό, Νίκο Σφηνιά, Χάρη Μπάκα",
+      "location": "Χριστός Ιεράπετρας"
+    },
+    "en": {
+      "title": "Gig with Kostas Gallios, Nikos Sfinias, Haris Bakas",
+      "location": "Christos Ierapetra"
+    },
+    "fr": {
+      "title": "Fête avec Kostas Gallios, Nikos Sfinias, Haris Bakas",
+      "location": "Christos Ierapetra"
+    }
   }
 ]
