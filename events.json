@@ -750,5 +750,21 @@
       "title": "Fête avec Kostas Gallios, Nikos Sfinias, Haris Bakas",
       "location": "Christos Ierapetra"
     }
+  },
+  {
+    "id": "99be7910-504e-4704-bf9b-98ee258fab73",
+    "date": "29/08/2026",
+    "el": {
+      "title": "Συναυλία Άσπρουγα με Juliette Weiss, Στέφανο Φλωρά, Sol Ligertwood και Χάρη Μπάκα. Ηχοληψία: Βαγγέλης Αποστόλου",
+      "location": "Ανοιχτό θέατρο Συλλάμου"
+    },
+    "en": {
+      "title": "Concert \"Asprougas\" with Juliette Weiss, Stefano Flora, Sol Ligertwood, and Hari Baka. Sound engineer: Vangelis Apostolou",
+      "location": "Open Theater Syllamos"
+    },
+    "fr": {
+      "title": "Concert \"Asprougas\" avec Sol Ligertwood, Juliette Weiss, Stefano Flora et Hari Baka. Preneur de son: Vangelis Apostolou",
+      "location": "Théâtre en plein air, Syllamos"
+    }
   }
 ]
