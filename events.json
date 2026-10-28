@@ -702,5 +702,21 @@
       "title": "Concert avec le groupe Idiorrhythmo",
       "location": "Aggeliana Mylopotamos"
     }
+  },
+  {
+    "id": "a19fe8aa-0801-464a-9fe2-c1f5c819516a",
+    "date": "26/06/2026",
+    "el": {
+      "title": "Συναυλία με το μουσικό σύνολο «Ιδιόρρυθμο»",
+      "location": "Μαργαρίτες"
+    },
+    "en": {
+      "title": "Concert with Idiorrhythmo ensemble",
+      "location": "Margarites"
+    },
+    "fr": {
+      "title": "Concert avec le groupe Idiorrhythmo",
+      "location": "Margarites"
+    }
   }
 ]
